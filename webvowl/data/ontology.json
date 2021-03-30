@@ -1,0 +1,5381 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "https://w3id.org/oho-pro", "http://www.w3.org/2000/01/rdf-schema", "https://w3id.org/oho", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "https://w3id.org/oho-pro#"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "141",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "180",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "198",
+    "type" : "owl:Class"
+  }, {
+    "id" : "203",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "219",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "224",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "228",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "256",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "14",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "286",
+    "type" : "owl:Class"
+  }, {
+    "id" : "292",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "280",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "315",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "318",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "319",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "328",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "325",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "321",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "329",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "327",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "317",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "294",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "205",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "272",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "333",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "296",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "314",
+    "type" : "owl:Class"
+  }, {
+    "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "188",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "368",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "199",
+    "type" : "owl:Class"
+  }, {
+    "id" : "351",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "361",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:Literal"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/oho-pro#Plant",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plant"
+    },
+    "subClasses" : [ "5", "6" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Pod_Component",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pod_Component"
+    },
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Material",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Material"
+    },
+    "subClasses" : [ "38", "9", "39", "40", "41", "42", "43" ],
+    "id" : "10",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Panel_Turnover_and_Tooling_Return",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Panel_Turnover_and_Tooling_Return"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Panel_TurnOver_and_Tooling_Return_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Panel_TurnOver_and_Tooling_Return_Station"
+      }
+    } ],
+    "id" : "46",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Production_Process",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Production_Process"
+    },
+    "subClasses" : [ "60", "61", "62", "63" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Station_Position",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Station_Position"
+    },
+    "subClasses" : [ "68", "69", "70" ],
+    "id" : "66",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Operative",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Operative"
+    },
+    "id" : "89",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Wall_Panel",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wall_Panel"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#3BED_GF_PARTYWALL_LSF_08",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "Ground Floor Party Wall LHS and RHS"
+      },
+      "labels" : {
+        "IRI-based" : "3BED_GF_PARTYWALL_LSF_08"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#3BED_FF_GABLE_LSF_04",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "First Floor LHS and RHS Gable Panles"
+      },
+      "labels" : {
+        "IRI-based" : "3BED_FF_GABLE_LSF_04"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#3BED_FF_FRONT_LSF_02",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "First Floor Front Panles LHS and RHS"
+      },
+      "labels" : {
+        "IRI-based" : "3BED_FF_FRONT_LSF_02"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#3BED_GF_RARE_LSF_06",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "Ground Floor Rare Panel LHS and RHS"
+      },
+      "labels" : {
+        "IRI-based" : "3BED_GF_RARE_LSF_06"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#3BED_FF_RARE_LSF_07",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "First Floor Rare Panles LHS and RHS"
+      },
+      "labels" : {
+        "IRI-based" : "3BED_FF_RARE_LSF_07"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#3BED_GF_GABLE_LSF_03",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "Ground Floor LHS and RHS Gable Panles"
+      },
+      "labels" : {
+        "IRI-based" : "3BED_GF_GABLE_LSF_03"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#3BED_ROOF_GABLE_LSF_05",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "Roof Gable End Panels."
+      },
+      "labels" : {
+        "IRI-based" : "3BED_ROOF_GABLE_LSF_05"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#3BED_ROOF_GABLE_PARTY_WALL_LSF_10",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "Roof Gable Party Wall Panels LHS and RHS"
+      },
+      "labels" : {
+        "IRI-based" : "3BED_ROOF_GABLE_PARTY_WALL_LSF_10"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#3BED_FF_PARTYWALL_LSF_09",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "First Floor Party Wall LHS and RHS"
+      },
+      "labels" : {
+        "IRI-based" : "3BED_FF_PARTYWALL_LSF_09"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#3BED_GF_FRONT_LSF_01",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "Ground Floor Front Panel LHS and RHS"
+      },
+      "labels" : {
+        "IRI-based" : "3BED_GF_FRONT_LSF_01"
+      }
+    } ],
+    "id" : "90",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Bathroom_Pod",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bathroom_Pod"
+    },
+    "id" : "102",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#WorkStation",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WorkStation"
+    },
+    "subClasses" : [ "66", "2" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#First_Activity",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "First_Activity"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#A5.4_Deliver_Pallets_to_Work_Stations",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.4_Deliver_Pallets_to_Work_Stations"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.30_Start_PMS_System",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.30_Start_PMS_System"
+      }
+    } ],
+    "id" : "110",
+    "superClasses" : [ "111" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Value_Adding",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Value_Adding"
+    },
+    "intersection" : [ "112" ],
+    "comment" : {
+      "undefined" : "Activities that physcially transforms the product, is correctly done at first attempt, and customers are willing to pay for it."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "107",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Volumetric_Room_Unit",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Volumetric_Room_Unit"
+    },
+    "id" : "113",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Panel_Frame_Assembly",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Panel_Frame_Assembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#SemiAutomatedFrameAssemblyLine",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "SemiAutomatedFrameAssemblyLine"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#ManualFrameAssemblyLine",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "ManualFrameAssemblyLine"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The process of assemblying and fixing the C-section Beam to form the panel frame."
+    },
+    "id" : "61",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Activity_Category",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity_Category"
+    },
+    "subClasses" : [ "107", "109", "55", "58", "65" ],
+    "id" : "56",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Manual_Cladding_Assembly_Station2",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Manual_Cladding_Assembly_Station2"
+    },
+    "id" : "21",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#FF_Pod_Finishing",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FF_Pod_Finishing"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#FF_Pod_Finishing_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "FF_Pod_Finishing_Station"
+      }
+    } ],
+    "id" : "23",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Labour",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Labour"
+    },
+    "subClasses" : [ "72", "76" ],
+    "id" : "73",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Parallel_Process",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Parallel_Process"
+    },
+    "comment" : {
+      "undefined" : "Start to start relaionship between activities in a process"
+    },
+    "id" : "122",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Named_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Named_Station"
+    },
+    "subClasses" : [ "78", "80", "86", "88", "51", "53", "1", "8", "12", "17", "19", "21", "23", "25", "124", "46", "125", "126" ],
+    "id" : "2",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Tooling_SetUp_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Tooling_SetUp_Station"
+    },
+    "id" : "125",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Non_Value_Adding",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Non_Value_Adding"
+    },
+    "intersection" : [ "112" ],
+    "comment" : {
+      "undefined" : "Activities that adds no value to the product i.e. does not physcially transforms the product, is not correctly done at first attempt, and customers are not willing to pay for it."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "55",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#TEK_Screw1_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "TEK_Screw1_Station"
+    },
+    "id" : "53",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#ME_Specialist",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ME_Specialist"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#M&E_Specialist",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "M&E_Specialist"
+      }
+    } ],
+    "id" : "131",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Quality_Inspector",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Quality_Inspector"
+    },
+    "id" : "140",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Neccessary_Non_Value_Adding",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Neccessary_Non_Value_Adding"
+    },
+    "intersection" : [ "112" ],
+    "comment" : {
+      "undefined" : "Value enabling activities that are required to ensure product quality however do not directly add value from the customer's perspective"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "58",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Batch_Level_Driver",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Batch_Level_Driver"
+    },
+    "intersection" : [ "112" ],
+    "attributes" : [ "intersection" ],
+    "id" : "141",
+    "superClasses" : [ "142" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Other_Pod_Finishing",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Other_Pod_Finishing"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Other_Pod_Finishing_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Other_Pod_Finishing_Station"
+      }
+    } ],
+    "id" : "12",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Annual_Production_Target",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Annual_Production_Target"
+    },
+    "subClasses" : [ "144" ],
+    "id" : "143"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Unit_Level_Driver",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Unit_Level_Driver"
+    },
+    "intersection" : [ "112" ],
+    "attributes" : [ "intersection" ],
+    "id" : "145",
+    "superClasses" : [ "142" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Administrative",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Administrative"
+    },
+    "id" : "151",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Small_Movable_Tool",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Small_Movable_Tool"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Fixing_Tool",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Fixing_Tool"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Forklift_Truck_2",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Forklift_Truck_2"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Forklift_Truck",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Forklift_Truck"
+      }
+    } ],
+    "id" : "6",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#TEK_Screw2_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TEK_Screw2_Station"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#TEK_Screw_2_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "TEK_Screw_2_Station"
+      }
+    } ],
+    "id" : "86",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Facility",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Facility"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Rent",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Rent"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This involves the cost of renting the factory space."
+    },
+    "id" : "164",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Procurement",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Procurement"
+    },
+    "id" : "169",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#M&E_Component",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "M&E_Component"
+    },
+    "id" : "40",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Activity_Cost_Driver",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity_Cost_Driver"
+    },
+    "subClasses" : [ "141", "171", "172", "145" ],
+    "id" : "142",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Cleaning",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Cleaning"
+    },
+    "id" : "180",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Overhead",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Overhead"
+    },
+    "subClasses" : [ "197", "169", "198", "164", "199", "186", "188", "180", "191", "151", "194" ],
+    "comment" : {
+      "undefined" : "Head office overhead requirement"
+    },
+    "id" : "152",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#LastStation",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "LastStation"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Panel_TurnOver_and_Tooling_Return_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Panel_TurnOver_and_Tooling_Return_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Other_Pod_Finishing_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Other_Pod_Finishing_Station"
+      }
+    } ],
+    "id" : "69",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Supervising",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supervising"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Supervisor1",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Supervisor1"
+      }
+    } ],
+    "id" : "198",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Stair_Unit",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stair_Unit"
+    },
+    "id" : "203",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/oho#Type_2_House",
+    "baseIri" : "https://w3id.org/oho",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Type_2_House"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#LSF_2BED_SemiDetached_House",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "LSF_2BED_SemiDetached_House"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "204",
+    "superClasses" : [ "205" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Product_Level_Driver",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Level_Driver"
+    },
+    "id" : "172",
+    "superClasses" : [ "142" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Method",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Method"
+    },
+    "subClasses" : [ "174", "179", "182" ],
+    "id" : "175"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Direct_Labour",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Direct_Labour"
+    },
+    "subClasses" : [ "140", "131", "89" ],
+    "id" : "72",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#SubSequence",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SubSequence"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_11",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_11"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_12",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_12"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_10",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_10"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_4",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_4"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_5",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_5"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_6",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_7",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_7"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_8",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_8"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_9",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_9"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_13",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_13"
+      }
+    } ],
+    "id" : "219",
+    "superClasses" : [ "139" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#GF_Pod_Finishing",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GF_Pod_Finishing"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#GF_Pod_Finishing_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "GF_Pod_Finishing_Station"
+      }
+    } ],
+    "id" : "80",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#SubStation",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 7,
+    "label" : {
+      "IRI-based" : "SubStation"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Manual_Cladding_Assembly_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Manual_Cladding_Assembly_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#FF_Pod_Finishing_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "FF_Pod_Finishing_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Frame_Inspection_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Frame_Inspection_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#FF_Pod_Frame_Assembly_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "FF_Pod_Frame_Assembly_Station"
+      }
+    } ],
+    "id" : "70",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#CP_Board_Screw_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "CP_Board_Screw_Station"
+    },
+    "id" : "51",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Last_Activity",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Last_Activity"
+    },
+    "id" : "135",
+    "superClasses" : [ "111" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Packaging",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Packaging"
+    },
+    "id" : "194",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Decoration_Component",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Decoration_Component"
+    },
+    "id" : "39",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Unload_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Unload_Station"
+    },
+    "id" : "17",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#LastSequence",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LastSequence"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_2",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_2"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_14",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_14"
+      }
+    } ],
+    "id" : "224",
+    "superClasses" : [ "139" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Activity",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity"
+    },
+    "subClasses" : [ "160", "56", "121", "111", "142" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://w3id.org/oho#Type_1_House",
+    "baseIri" : "https://w3id.org/oho",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Type_1_House"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#LSF_3BED_SemiDetached_House",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "LSF_3BED_SemiDetached_House"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#LSF_3BED_SemiDetached_House_Manual",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "LSF_3BED_SemiDetached_House_Manual"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "228",
+    "superClasses" : [ "205" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Direct_Activity",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Direct_Activity"
+    },
+    "intersection" : [ "112" ],
+    "attributes" : [ "intersection" ],
+    "id" : "109",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Frame_Rework_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Frame_Rework_Station"
+    },
+    "id" : "88",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Resource",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource"
+    },
+    "subClasses" : [ "3", "73", "10", "152", "157" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Activity_Sequence",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity_Sequence"
+    },
+    "subClasses" : [ "110", "135" ],
+    "id" : "111",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Sanitary_Component",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sanitary_Component"
+    },
+    "id" : "41",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Factory_Running",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Factory_Running"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Utilities",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Utilities"
+      }
+    } ],
+    "id" : "186",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Ceiling_Component",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ceiling_Component"
+    },
+    "id" : "38",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Roof",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Roof"
+    },
+    "id" : "256",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Business_Rate",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Business_Rate"
+    },
+    "id" : "197",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#FirstStation",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "FirstStation"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#GF_Pod_Finishing_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "GF_Pod_Finishing_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#GF_Pod_Frame_Assembly_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "GF_Pod_Frame_Assembly_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Manual_Frame_Assembly_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Manual_Frame_Assembly_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#TEK_Screw_2_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "TEK_Screw_2_Station"
+      }
+    } ],
+    "id" : "68",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "100",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "261",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "265",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "266",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "267",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "168",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "268",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Panel_Frame_and_Cladding_Assembly",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Panel_Frame_and_Cladding_Assembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Manual_Cladding_Assembly_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Manual_Cladding_Assembly_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Manual_Frame_Assembly_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Manual_Frame_Assembly_Station"
+      }
+    } ],
+    "id" : "126",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Indirect_Labour",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Indirect_Labour"
+    },
+    "subClasses" : [ "137" ],
+    "id" : "76",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "119",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#CP_Board_Rework_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "CP_Board_Rework_Station"
+    },
+    "id" : "78",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Inspection_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inspection_Station"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Frame_Inspection_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Frame_Inspection_Station"
+      }
+    } ],
+    "id" : "8",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#SubContractor",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SubContractor"
+    },
+    "id" : "157",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "232",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "14",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Floor_Panel",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Floor_Panel"
+    },
+    "id" : "286",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Process_Chain",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process_Chain"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_15",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_15"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_13",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_13"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_14",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_14"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_11",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_11"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_12",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_12"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_1",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_1"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_10",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_10"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_2",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_2"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_3",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_3"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_4",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_4"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_5",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_5"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_6",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_7",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_7"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_8",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_8"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_9",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_9"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Repetitive activities involved"
+    },
+    "id" : "292",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Production_Year",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Production_Year"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Year9_2028",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Year9_2028"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Year2_2021",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Year2_2021"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Year5_2024",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Year5_2024"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Year10_2029",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Year10_2029"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Year8_2027",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Year8_2027"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Year1_2020",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Year1_2020"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Year4_2023",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Year4_2023"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Year7_2026",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Year7_2026"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Year3_2022",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Year3_2022"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Year6_2025",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Year6_2025"
+      }
+    } ],
+    "id" : "144",
+    "superClasses" : [ "143" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Process_Type",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process_Type"
+    },
+    "subClasses" : [ "139", "122", "292" ],
+    "id" : "123"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#StartSequence",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StartSequence"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_1",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_1"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_3",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_3"
+      }
+    } ],
+    "id" : "280",
+    "superClasses" : [ "139" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Floor_Component",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Floor_Component"
+    },
+    "id" : "42",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Security",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Security"
+    },
+    "id" : "191",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "315",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "318",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Programmer",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Programmer"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Programmer1",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Programmer1"
+      }
+    } ],
+    "id" : "137",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "196",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "319",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "177",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#GF_Pod_Frame_Assembly",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GF_Pod_Frame_Assembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#GF_Pod_Frame_Assembly_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "GF_Pod_Frame_Assembly_Station"
+      }
+    } ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "328",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "325",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "321",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "329",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "327",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "264",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "317",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "294",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Wall_Component",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wall_Component"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#HeadTrack_TP_01",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "HeadTrack_TP_01"
+      }
+    } ],
+    "id" : "43",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Large_Static_Tool",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Large_Static_Tool"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Automated_Production_Line",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "Cost of investment for automated production line for frame and cladding assembly"
+      },
+      "labels" : {
+        "IRI-based" : "Automated_Production_Line"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Static_Production_Line",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "Cost of Fixing tools and, Jigs and Fixtures"
+      },
+      "labels" : {
+        "IRI-based" : "Static_Production_Line"
+      }
+    } ],
+    "id" : "5",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "https://w3id.org/oho#House",
+    "baseIri" : "https://w3id.org/oho",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "House"
+    },
+    "subClasses" : [ "204", "228" ],
+    "attributes" : [ "external" ],
+    "id" : "205"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Panel_Cladding_Assembly",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Panel_Cladding_Assembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#SemiAutomatedCladdingAssemblyLine",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "SemiAutomatedCladdingAssemblyLine"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#ManualCladdingAssemblyLine",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "ManualCladdingAssemblyLine"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The process of fixing the cement board to the frame to form a wall."
+    },
+    "id" : "60",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Product",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "subClasses" : [ "256", "203", "314", "286", "90", "102", "113" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#FF_Pod_Frame_Assembly",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FF_Pod_Frame_Assembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#FF_Pod_Frame_Assembly_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "FF_Pod_Frame_Assembly_Station"
+      }
+    } ],
+    "id" : "25",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Frame_Load_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Frame_Load_Station"
+    },
+    "id" : "124",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "258",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "239",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "82",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Cost_Driver",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cost_Driver"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Number_of_Time",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Number_of_Time"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Machine_Hour",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Machine_Hour"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Square_Meter_Area",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Square_Meter_Area"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Labour_Hour",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Labour_Hour"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Number_of_Unit",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Number_of_Unit"
+      }
+    } ],
+    "id" : "272"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Production_Activity",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Production_Activity"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#A5.43_Transfer_Frame_to_Turnover_Unit",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.43_Transfer_Frame_to_Turnover_Unit"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.51_Deliver_CP_Board_to_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.51_Deliver_CP_Board_to_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.34_Tooling_SetUp_for_Batch",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.34_Tooling_SetUp_for_Batch"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.36_Verify_and_Inspect_SetUp",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.36_Verify_and_Inspect_SetUp"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.50_Manually_Rework_on_Failed_Joints",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.50_Manually_Rework_on_Failed_Joints"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.63_Inspect_quality_of_bonding_and_fixing",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.63_Inspect_quality_of_bonding_and_fixing"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.6_Nut_and_Bolt_Frame",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.6_Nut_and_Bolt_Frame"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.55_Visual_Inspection_on_Connection",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.55_Visual_Inspection_on_Connection"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.5_Select_Steel_Frame_for_Batch",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.5_Select_Steel_Frame_for_Batch"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.24_Install_Candy_Wall_System",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.24_Install_Candy_Wall_System"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.21_Visual_Inspection_on_Joints",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.21_Visual_Inspection_on_Joints"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.52_Load_CP_Board_on_Frame",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.52_Load_CP_Board_on_Frame"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.57_Transfer_Frame_to_Unload_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.57_Transfer_Frame_to_Unload_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.54_Screw_CP_Board_to_Frame",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.54_Screw_CP_Board_to_Frame"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.29_Load_Panel_to_Trolley_and_Transport",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.29_Load_Panel_to_Trolley_and_Transport"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.47_Screw_Frame_on_Opposite_Side",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.47_Screw_Frame_on_Opposite_Side"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.17_Install_Breather_Membrane",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.17_Install_Breather_Membrane"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.65_Install_Cladding_SubFrame",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.65_Install_Cladding_SubFrame"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.30_Start_PMS_System",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.30_Start_PMS_System"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.62_Install_Breather_Membrane",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.62_Install_Breather_Membrane"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.31_Load_BIM_Model",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.31_Load_BIM_Model"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.13_Inspect_Quality_of_Fixing",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.13_Inspect_Quality_of_Fixing"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.69_Install_Candy_Wall_System",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.69_Install_Candy_Wall_System"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.39_Screw_Steel_Section_to_form_Frame",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.39_Screw_Steel_Section_to_form_Frame"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.68_Install_Cavity_Insulation",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.68_Install_Cavity_Insulation"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.37_Clamp_Section_in_Place",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.37_Clamp_Section_in_Place"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.41_Visual_Inspection_on_Frame",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.41_Visual_Inspection_on_Frame"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.35_Sort_Steel_Section_and_Load_onto_Tooling",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.35_Sort_Steel_Section_and_Load_onto_Tooling"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.16_Bond_EPDM",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.16_Bond_EPDM"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.4_Deliver_Pallets_to_Work_Stations",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.4_Deliver_Pallets_to_Work_Stations"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.15_Fix_Window_and_Door_Pod",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.15_Fix_Window_and_Door_Pod"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.23_Install_Cavity_Insulation",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.23_Install_Cavity_Insulation"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.7_Inspect_Quality_of_Fixing",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.7_Inspect_Quality_of_Fixing"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.10_Check_CP_Board_Alignment",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.10_Check_CP_Board_Alignment"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.59_Load_Panel_to_Transport_Trolley",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.59_Load_Panel_to_Transport_Trolley"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.60_Fix_Window_and_Door_Pods",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.60_Fix_Window_and_Door_Pods"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.70_Install_Cladding",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.70_Install_Cladding"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.33_Material_Delivery_to_Work_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.33_Material_Delivery_to_Work_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.14_Rework_on_Failed_Joints",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.14_Rework_on_Failed_Joints"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.48_Transfer_Frame_to_Rework_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.48_Transfer_Frame_to_Rework_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.28_Rework_or_Scrap_Panel",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.28_Rework_or_Scrap_Panel"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.19_Rework_on_Bonding",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.19_Rework_on_Bonding"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.73_Rework_on_Panel_or_Scrap",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.73_Rework_on_Panel_or_Scrap"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.18_Inspect_Quality_of_Bonding",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.18_Inspect_Quality_of_Bonding"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.9_Measure_and_Cut_CP_Board",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.9_Measure_and_Cut_CP_Board"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.20_Install_Cladding_SubFrame",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.20_Install_Cladding_SubFrame"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.27_Visual_Inspection_and_SignOff",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.27_Visual_Inspection_and_SignOff"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.67_Rework_on_Fixing",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.67_Rework_on_Fixing"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.26_Install_Window_and_Door",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.26_Install_Window_and_Door"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.45_Transfer_Frame_to_Fixing_Station_2",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.45_Transfer_Frame_to_Fixing_Station_2"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.11_Load_and_Place_CP_Board_on_Frame",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.11_Load_and_Place_CP_Board_on_Frame"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.49_Visual_Inspection_on_Frame_Connection",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.49_Visual_Inspection_on_Frame_Connection"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.8_Rework_on_Failed_Joints",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.8_Rework_on_Failed_Joints"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.42_Manual_Rework_on_Failed_Joints",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.42_Manual_Rework_on_Failed_Joints"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.46_Datum_and_Clamp_Frame_in_Place",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.46_Datum_and_Clamp_Frame_in_Place"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.25_Install_Cladding",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.25_Install_Cladding"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.40_Transfer_Frame_to_Rework_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.40_Transfer_Frame_to_Rework_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.66_Visual_Inspection_of_SubFrame_Joints",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.66_Visual_Inspection_of_SubFrame_Joints"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.58_Rotate_and_Offload_Panel",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.58_Rotate_and_Offload_Panel"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.64_Rework_on_Bonding",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.64_Rework_on_Bonding"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.53_Transfer_Frame_to_CP_Board_Screw_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.53_Transfer_Frame_to_CP_Board_Screw_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.74_Load_Panels_to_Transport_Trolley",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.74_Load_Panels_to_Transport_Trolley"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.32_Run_and_Monitor_Process",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.32_Run_and_Monitor_Process"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.38_Transfer_Frame_to_Fixing_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.38_Transfer_Frame_to_Fixing_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.61_Bond_EPDM",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.61_Bond_EPDM"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.12_Screw_CP_Board_on_Frame",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.12_Screw_CP_Board_on_Frame"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.71_Install_Window_and_Door",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.71_Install_Window_and_Door"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.44_Unclamp_and_Lift_Frame_off_Tooling",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.44_Unclamp_and_Lift_Frame_off_Tooling"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.72_Visual_Inspection_and_Sign_Off",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.72_Visual_Inspection_and_Sign_Off"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.22_Rework_on_Fixing",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.22_Rework_on_Fixing"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.56_Manually_Rework_on_Joints",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.56_Manually_Rework_on_Joints"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Tasks done on the production line or work stations"
+    },
+    "id" : "121",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Indirect_Activity",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Indirect_Activity"
+    },
+    "intersection" : [ "112" ],
+    "attributes" : [ "intersection" ],
+    "id" : "65",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "333",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "296",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Facility_Level_Driver",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Facility_Level_Driver"
+    },
+    "id" : "171",
+    "superClasses" : [ "142" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Internal_FitOut_and_Finishing",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Internal_FitOut_and_Finishing"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#ManualInternalFitOutLine",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "ManualInternalFitOutLine"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A process of applying finishings to the panels which is also the last stage in the process."
+    },
+    "id" : "63",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Sequential_Process",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sequential_Process"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_13",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_13"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_14",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_14"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_11",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_11"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_12",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_12"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_10",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_10"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_1",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_1"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_2",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_2"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_3",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_3"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_4",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_4"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_5",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_5"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_6",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_7",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_7"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_8",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_8"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_9",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_9"
+      }
+    } ],
+    "subClasses" : [ "219", "224", "280" ],
+    "comment" : {
+      "undefined" : "Finish to start relaionship between activities in a process"
+    },
+    "id" : "139",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "226",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Pod_Frame_Assembly",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pod_Frame_Assembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#PodFrameAssemblyLine",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "PodFrameAssemblyLine"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This process is used when a volumenteric assembly is required where panels are assembled o form boxes or pods."
+    },
+    "id" : "62",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Kitchen_Pod",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Kitchen_Pod"
+    },
+    "id" : "314",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Semi_Automated_Line_Manufacturing_Method",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semi_Automated_Line_Manufacturing_Method"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#SemiAutomatedManufacturingMethod",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "SemiAutomatedManufacturingMethod"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A process where production is sequential and carried out in a discrete number of individual stages with some automated processes."
+    },
+    "id" : "182",
+    "superClasses" : [ "175" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Transport",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Transport"
+    },
+    "id" : "188",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Support_Activity",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Support_Activity"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#A6.4_Maintenance",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.4_Maintenance"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A6.5_Packaging",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.5_Packaging"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A6.10_Business_Running",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.10_Business_Running"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A6.9_Factory_Running",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.9_Factory_Running"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A6.6_Transporting",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.6_Transporting"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A6.2_Administration",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.2_Administration"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A6.8_Factory",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.8_Factory"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A6.1_Supervising",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.1_Supervising"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A6.7_Security",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.7_Security"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A6.3_Procurement",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.3_Procurement"
+      }
+    } ],
+    "id" : "160",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#CP_Board_Load_Station",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "CP_Board_Load_Station"
+    },
+    "id" : "19",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Fully_Automated_Line_Manufacturing_Method",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fully_Automated_Line_Manufacturing_Method"
+    },
+    "id" : "174",
+    "superClasses" : [ "175" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Static_Adhoc_Manufacturing_Method",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Static_Adhoc_Manufacturing_Method"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#StaticManufacturingMethod",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "StaticManufacturingMethod"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A process where prefabricated elements are manufactured in one position, and materials, services, and personnel are brought to the fabrication point."
+    },
+    "id" : "179",
+    "superClasses" : [ "175" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "368",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Maintenance",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Maintenance"
+    },
+    "id" : "199",
+    "superClasses" : [ "152" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "351",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "361",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "213",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "200",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "206",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "233",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "234",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "236",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "240",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "241",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "242",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "243",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "244",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "245",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "246",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "247",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "248",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "249",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "250",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "251",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "253",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "269",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "270",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "271",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "273",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "274",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "275",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "277",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "278",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "279",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "281",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "282",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "207",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "283",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "284",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "285",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "287",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "288",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "289",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "290",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "291",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "254",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "293",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "295",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "297",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "298",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "299",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "300",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "301",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "302",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "303",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "304",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "305",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "306",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "307",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "308",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "309",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "310",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "311",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "312",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "313",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "316",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "320",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "322",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "324",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "323",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "326",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "260",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "330",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "331",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "332",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "334",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "335",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "336",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "337",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "338",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "339",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "340",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "341",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "342",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "343",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "344",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "345",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "346",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "347",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "348",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "349",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "350",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "352",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "353",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "354",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "355",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "356",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "357",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "358",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "359",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "360",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "362",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "363",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "364",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "365",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "262",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "366",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "367",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "369",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "range" : "2",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasTotalMachineHourAllocation",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasTotalMachineHourAllocation"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "13"
+  }, {
+    "range" : "2",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "2",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "2",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "2",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "2",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasPlantCost",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasPlantCost"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isCostDriverOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isCostDriverOf"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isFinishProcessOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isFinishProcessOf"
+    },
+    "superproperty" : [ "30" ],
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasProductionTimePerPanel",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "hasProductionTimePerPanel"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasPlantDayRate",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "hasPlantDayRate"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "33"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasProcess",
+    "inverse" : "30",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasProcess"
+    },
+    "domain" : "14",
+    "subproperty" : [ "36", "37" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasWaitingTime",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "hasWaitingTime"
+    },
+    "domain" : "14",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isConsumedBy",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isConsumedBy"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasCount",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "hasCount"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "48"
+  }, {
+    "range" : "2",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "2",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "56",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "56",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "56",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "73",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isComponentPartOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isComponentPartOf"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "74"
+  }, {
+    "range" : "73",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "2",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "2",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasLabourHourlyRate",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "hasLabourHourlyRate"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasDirectMaterialCost",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "hasDirectMaterialCost"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "83"
+  }, {
+    "range" : "2",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "2",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#belongsTo",
+    "inverse" : "93",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "belongsTo"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasTotalTimeAllocation",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "hasTotalTimeAllocation"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "94"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasMaterialUnitRate",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "hasMaterialUnitRate"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isProcessOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isProcessOf"
+    },
+    "domain" : "14",
+    "subproperty" : [ "98", "29" ],
+    "attributes" : [ "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasProductQuantity",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "hasProductQuantity"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "99"
+  }, {
+    "range" : "67",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "67",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isLongestActivityOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isLongestActivityOf"
+    },
+    "superproperty" : [ "105" ],
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "range" : "56",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "56",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasSubProcess",
+    "inverse" : "115",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasSubProcess"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "114"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasProcessCost",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "hasProcessCost"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "116"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasDurationInWorkHours",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "hasDurationInWorkHours"
+    },
+    "domain" : "14",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "118"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isActivityType",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "isActivityType"
+    },
+    "domain" : "121",
+    "attributes" : [ "object" ],
+    "id" : "120"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasSubStation",
+    "inverse" : "128",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasSubStation"
+    },
+    "domain" : "14",
+    "subproperty" : [ "129", "130" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasProductionYear",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasProductionYear"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "132"
+  }, {
+    "range" : "111",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "111",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "76",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "123",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "112",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#consume",
+    "inverse" : "47",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "consume"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "147"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "4",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "4",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "4",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isSuppliedBy",
+    "inverse" : "155",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isSuppliedBy"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "154"
+  }, {
+    "range" : "4",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "72",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "112",
+    "domain" : "160",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "112",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "112",
+    "domain" : "121",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "112",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasTotalSquareMeterAreaAllocation",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "hasTotalSquareMeterAreaAllocation"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasDurationFromStart",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "hasDurationFromStart"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "167"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isFinishStationOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isFinishStationOf"
+    },
+    "superproperty" : [ "128" ],
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "170"
+  }, {
+    "range" : "175",
+    "domain" : "174",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasTime",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "177",
+    "label" : {
+      "IRI-based" : "hasTime"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "176"
+  }, {
+    "range" : "175",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "175",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "72",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "72",
+    "domain" : "131",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "152",
+    "domain" : "186",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "152",
+    "domain" : "188",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "152",
+    "domain" : "180",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "152",
+    "domain" : "191",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "152",
+    "domain" : "151",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "152",
+    "domain" : "194",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasOverheadUnitRate",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "196",
+    "label" : {
+      "IRI-based" : "hasOverheadUnitRate"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "195"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasTotalProductUnitAllocation",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "hasTotalProductUnitAllocation"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "200"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isNextSequenceOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isNextSequenceOf"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "202"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isStartProcessOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isStartProcessOf"
+    },
+    "superproperty" : [ "30" ],
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "98"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isSubsequentStationOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isSubsequentStationOf"
+    },
+    "domain" : "14",
+    "subproperty" : [ "207" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "206"
+  }, {
+    "range" : "152",
+    "domain" : "169",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "152",
+    "domain" : "198",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "152",
+    "domain" : "164",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "152",
+    "domain" : "199",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasTotalLabourHourAllocation",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "213",
+    "label" : {
+      "IRI-based" : "hasTotalLabourHourAllocation"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "212"
+  }, {
+    "range" : "2",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "143",
+    "domain" : "144",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "142",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "142",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "142",
+    "domain" : "172",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isComposedOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isComposedOf"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "220"
+  }, {
+    "range" : "142",
+    "domain" : "145",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "152",
+    "domain" : "197",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isFinishActivityOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isFinishActivityOf"
+    },
+    "superproperty" : [ "105" ],
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "223"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasLabourQuantity",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "226",
+    "label" : {
+      "IRI-based" : "hasLabourQuantity"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "225"
+  }, {
+    "range" : "2",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "range" : "2",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "2",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasSubcontractorCost",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "232",
+    "label" : {
+      "IRI-based" : "hasSubcontractorCost"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "231"
+  }, {
+    "domain" : "199",
+    "range" : "199",
+    "id" : "233",
+    "label" : {
+      "IRI-based" : "30",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasFinishActivity",
+    "inverse" : "223",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasFinishActivity"
+    },
+    "superproperty" : [ "235" ],
+    "domain" : "14",
+    "attributes" : [ "functional", "object" ],
+    "id" : "234"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasSubsequentStation",
+    "inverse" : "206",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasSubsequentStation"
+    },
+    "domain" : "14",
+    "subproperty" : [ "237" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "236"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasAnnualCost",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "239",
+    "label" : {
+      "IRI-based" : "hasAnnualCost"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "238"
+  }, {
+    "domain" : "69",
+    "range" : "21",
+    "id" : "240",
+    "label" : {
+      "IRI-based" : "29",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "88",
+    "range" : "88",
+    "id" : "241",
+    "label" : {
+      "IRI-based" : "28",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "180",
+    "range" : "180",
+    "id" : "242",
+    "label" : {
+      "IRI-based" : "25",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "51",
+    "range" : "51",
+    "id" : "243",
+    "label" : {
+      "IRI-based" : "24",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "124",
+    "range" : "124",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "27",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "68",
+    "range" : "125",
+    "id" : "245",
+    "label" : {
+      "IRI-based" : "26",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "197",
+    "range" : "197",
+    "id" : "246",
+    "label" : {
+      "IRI-based" : "21",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasComponentPart",
+    "inverse" : "74",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasComponentPart"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "247"
+  }, {
+    "domain" : "151",
+    "range" : "151",
+    "id" : "248",
+    "label" : {
+      "IRI-based" : "20",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "78",
+    "range" : "78",
+    "id" : "249",
+    "label" : {
+      "IRI-based" : "23",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "19",
+    "range" : "19",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "22",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasStartActivity",
+    "inverse" : "252",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasStartActivity"
+    },
+    "superproperty" : [ "235" ],
+    "domain" : "14",
+    "attributes" : [ "functional", "object" ],
+    "id" : "251"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasSubsequentActivity",
+    "inverse" : "254",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasSubsequentActivity"
+    },
+    "domain" : "14",
+    "subproperty" : [ "255" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "253"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasFinishProcess",
+    "inverse" : "29",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasFinishProcess"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "14",
+    "attributes" : [ "functional", "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasTotalProductionQuanitityPerEconimicLife",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "258",
+    "label" : {
+      "IRI-based" : "hasTotalProductionQuanitityPerEconimicLife"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "257"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isSubStationOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isSubStationOf"
+    },
+    "domain" : "14",
+    "subproperty" : [ "170", "260" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasSubActivity",
+    "inverse" : "105",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasSubActivity"
+    },
+    "domain" : "14",
+    "subproperty" : [ "251", "262", "234" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "235"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasTotalPlantCost",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "264",
+    "label" : {
+      "IRI-based" : "hasTotalPlantCost"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "263"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasNextSequence",
+    "inverse" : "202",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasNextSequence"
+    },
+    "domain" : "14",
+    "attributes" : [ "functional", "object" ],
+    "id" : "269"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasStartStation",
+    "inverse" : "260",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasStartStation"
+    },
+    "superproperty" : [ "127" ],
+    "domain" : "14",
+    "attributes" : [ "functional", "object" ],
+    "id" : "129"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#supplies",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "supplies"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "155"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isNextActivityOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isNextActivityOf"
+    },
+    "superproperty" : [ "254" ],
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "270"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasCostDriver",
+    "inverse" : "28",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "272",
+    "label" : {
+      "IRI-based" : "hasCostDriver"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "271"
+  }, {
+    "domain" : "17",
+    "range" : "17",
+    "id" : "273",
+    "label" : {
+      "IRI-based" : "47",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "91",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "274"
+  }, {
+    "domain" : "188",
+    "range" : "188",
+    "id" : "275",
+    "label" : {
+      "IRI-based" : "46",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "139",
+    "domain" : "219",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
+  }, {
+    "range" : "139",
+    "domain" : "224",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasProcessTime",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "259",
+    "label" : {
+      "IRI-based" : "hasProcessTime"
+    },
+    "domain" : "14",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "278"
+  }, {
+    "range" : "139",
+    "domain" : "280",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "279"
+  }, {
+    "domain" : "70",
+    "range" : "124",
+    "id" : "281",
+    "label" : {
+      "IRI-based" : "43",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "70",
+    "range" : "51",
+    "id" : "282",
+    "label" : {
+      "IRI-based" : "42",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isNextStationOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isNextStationOf"
+    },
+    "superproperty" : [ "206" ],
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "207"
+  }, {
+    "domain" : "125",
+    "range" : "125",
+    "id" : "283",
+    "label" : {
+      "IRI-based" : "45",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "53",
+    "range" : "53",
+    "id" : "284",
+    "label" : {
+      "IRI-based" : "44",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "91",
+    "domain" : "286",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "285"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isSubProcessOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isSubProcessOf"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "115"
+  }, {
+    "range" : "91",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "287"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasProductionMethod",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasProductionMethod"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "288"
+  }, {
+    "domain" : "70",
+    "range" : "78",
+    "id" : "289",
+    "label" : {
+      "IRI-based" : "41",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "91",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "domain" : "70",
+    "range" : "88",
+    "id" : "291",
+    "label" : {
+      "IRI-based" : "40",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasStartProcess",
+    "inverse" : "98",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasStartProcess"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "14",
+    "attributes" : [ "functional", "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isStartActivityOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isStartActivityOf"
+    },
+    "superproperty" : [ "105" ],
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "252"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isSubsequentActivityOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isSubsequentActivityOf"
+    },
+    "domain" : "14",
+    "subproperty" : [ "270" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "254"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasSalvageValue",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "294",
+    "label" : {
+      "IRI-based" : "hasSalvageValue"
+    },
+    "domain" : "14",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "293"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasDurationAtFinish",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "296",
+    "label" : {
+      "IRI-based" : "hasDurationAtFinish"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "295"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasNextActivity",
+    "inverse" : "270",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasNextActivity"
+    },
+    "superproperty" : [ "253" ],
+    "domain" : "14",
+    "attributes" : [ "functional", "object" ],
+    "id" : "255"
+  }, {
+    "domain" : "70",
+    "range" : "17",
+    "id" : "297",
+    "label" : {
+      "IRI-based" : "39",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "191",
+    "range" : "191",
+    "id" : "298",
+    "label" : {
+      "IRI-based" : "36",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "140",
+    "range" : "140",
+    "id" : "299",
+    "label" : {
+      "IRI-based" : "35",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "123",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "300"
+  }, {
+    "domain" : "70",
+    "range" : "19",
+    "id" : "301",
+    "label" : {
+      "IRI-based" : "38",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "123",
+    "domain" : "292",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "302"
+  }, {
+    "domain" : "70",
+    "range" : "53",
+    "id" : "303",
+    "label" : {
+      "IRI-based" : "37",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "205",
+    "domain" : "204",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "304"
+  }, {
+    "domain" : "89",
+    "range" : "89",
+    "id" : "305",
+    "label" : {
+      "IRI-based" : "32",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "205",
+    "domain" : "228",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "306"
+  }, {
+    "domain" : "21",
+    "range" : "21",
+    "id" : "307",
+    "label" : {
+      "IRI-based" : "31",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "91",
+    "domain" : "256",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "308"
+  }, {
+    "domain" : "169",
+    "range" : "169",
+    "id" : "309",
+    "label" : {
+      "IRI-based" : "34",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "91",
+    "domain" : "203",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "310"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasPeriod",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "266",
+    "label" : {
+      "IRI-based" : "hasPeriod"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "311"
+  }, {
+    "domain" : "194",
+    "range" : "194",
+    "id" : "312",
+    "label" : {
+      "IRI-based" : "33",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "91",
+    "domain" : "314",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "313"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasLabourCost",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "317",
+    "label" : {
+      "IRI-based" : "hasLabourCost"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "316"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#consistOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "consistOf"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasOverheadCost",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "321",
+    "label" : {
+      "IRI-based" : "hasOverheadCost"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "320"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasOutput",
+    "inverse" : "323",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "hasOutput"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "322"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasFinishStation",
+    "inverse" : "170",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasFinishStation"
+    },
+    "superproperty" : [ "127" ],
+    "domain" : "14",
+    "attributes" : [ "functional", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasDepreciationExpense",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "325",
+    "label" : {
+      "IRI-based" : "hasDepreciationExpense"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "324"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isOutputOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isOutputOf"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "323"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasAllocationBase",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "327",
+    "label" : {
+      "IRI-based" : "hasAllocationBase"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "326"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isStartStationOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isStartStationOf"
+    },
+    "superproperty" : [ "128" ],
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "260"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasActivityCost",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "329",
+    "label" : {
+      "IRI-based" : "hasActivityCost"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "330"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasActivityCostFromStart",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "328",
+    "label" : {
+      "IRI-based" : "hasActivityCostFromStart"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "331"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasCycleTime",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "333",
+    "label" : {
+      "IRI-based" : "hasCycleTime"
+    },
+    "domain" : "14",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "332"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasAllocationRate",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "318",
+    "label" : {
+      "IRI-based" : "hasAllocationRate"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "334"
+  }, {
+    "range" : "66",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "335"
+  }, {
+    "range" : "59",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "336"
+  }, {
+    "range" : "66",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "337"
+  }, {
+    "range" : "66",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "338"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasUnitOfProductionRate",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "315",
+    "label" : {
+      "IRI-based" : "hasUnitOfProductionRate"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "339"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasActivityCostAtFinish",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "319",
+    "label" : {
+      "IRI-based" : "hasActivityCostAtFinish"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "340"
+  }, {
+    "range" : "59",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "341"
+  }, {
+    "range" : "59",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "342"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasLabourCount",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "261",
+    "label" : {
+      "IRI-based" : "hasLabourCount"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "343"
+  }, {
+    "range" : "59",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "344"
+  }, {
+    "range" : "219",
+    "domain" : "224",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "345"
+  }, {
+    "range" : "219",
+    "domain" : "280",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "346"
+  }, {
+    "range" : "55",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "347"
+  }, {
+    "range" : "107",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "348"
+  }, {
+    "range" : "107",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "349"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasAnnualSalary",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "351",
+    "label" : {
+      "IRI-based" : "hasAnnualSalary"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "350"
+  }, {
+    "range" : "76",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "352"
+  }, {
+    "range" : "280",
+    "domain" : "224",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "353"
+  }, {
+    "range" : "10",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "354"
+  }, {
+    "range" : "10",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "355"
+  }, {
+    "range" : "10",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "356"
+  }, {
+    "range" : "10",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "357"
+  }, {
+    "range" : "10",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "358"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasNextStation",
+    "inverse" : "207",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasNextStation"
+    },
+    "superproperty" : [ "236" ],
+    "domain" : "14",
+    "attributes" : [ "functional", "object" ],
+    "id" : "237"
+  }, {
+    "range" : "3",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "359"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasMaterialCount",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "361",
+    "label" : {
+      "IRI-based" : "hasMaterialCount"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "360"
+  }, {
+    "range" : "10",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "362"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "363"
+  }, {
+    "range" : "3",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "364"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#isSubActivityOf",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isSubActivityOf"
+    },
+    "domain" : "14",
+    "subproperty" : [ "223", "252", "104" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "105"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasInspectionTime",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "265",
+    "label" : {
+      "IRI-based" : "hasInspectionTime"
+    },
+    "domain" : "14",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "365"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasLongestActivity",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasLongestActivity"
+    },
+    "superproperty" : [ "235" ],
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "262"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasEconomicLife",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "268",
+    "label" : {
+      "IRI-based" : "hasEconomicLife"
+    },
+    "domain" : "14",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "366"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasTotalCostAllocationBase",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "368",
+    "label" : {
+      "IRI-based" : "hasTotalCostAllocationBase"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype" ],
+    "id" : "367"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasLoadingTime",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "hasLoadingTime"
+    },
+    "domain" : "14",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "369"
+  } ]
+}
