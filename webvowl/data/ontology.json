@@ -16,7 +16,7 @@
     "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "46",
+    "id" : "44",
     "type" : "owl:Class"
   }, {
     "id" : "59",
@@ -28,7 +28,7 @@
     "id" : "89",
     "type" : "owl:Class"
   }, {
-    "id" : "90",
+    "id" : "91",
     "type" : "owl:Class"
   }, {
     "id" : "102",
@@ -109,7 +109,7 @@
     "id" : "164",
     "type" : "owl:Class"
   }, {
-    "id" : "169",
+    "id" : "167",
     "type" : "owl:Class"
   }, {
     "id" : "40",
@@ -133,9 +133,6 @@
     "id" : "203",
     "type" : "owl:Class"
   }, {
-    "id" : "204",
-    "type" : "owl:Class"
-  }, {
     "id" : "172",
     "type" : "owl:Class"
   }, {
@@ -145,7 +142,7 @@
     "id" : "72",
     "type" : "owl:Class"
   }, {
-    "id" : "219",
+    "id" : "217",
     "type" : "owl:Class"
   }, {
     "id" : "80",
@@ -163,19 +160,16 @@
     "id" : "194",
     "type" : "owl:Class"
   }, {
-    "id" : "39",
-    "type" : "owl:Class"
-  }, {
     "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "224",
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "222",
     "type" : "owl:Class"
   }, {
     "id" : "112",
-    "type" : "owl:Class"
-  }, {
-    "id" : "228",
     "type" : "owl:Class"
   }, {
     "id" : "109",
@@ -199,7 +193,7 @@
     "id" : "38",
     "type" : "owl:Class"
   }, {
-    "id" : "256",
+    "id" : "253",
     "type" : "owl:Class"
   }, {
     "id" : "197",
@@ -211,34 +205,34 @@
     "id" : "100",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "259",
+    "id" : "256",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "45",
+    "id" : "46",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "261",
+    "id" : "258",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "169",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "265",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "266",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "267",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "168",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "268",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "126",
+    "id" : "76",
     "type" : "owl:Class"
   }, {
-    "id" : "76",
+    "id" : "126",
     "type" : "owl:Class"
   }, {
     "id" : "119",
@@ -262,7 +256,7 @@
     "id" : "157",
     "type" : "owl:Class"
   }, {
-    "id" : "232",
+    "id" : "229",
     "type" : "rdfs:Literal"
   }, {
     "id" : "14",
@@ -271,7 +265,7 @@
     "id" : "286",
     "type" : "owl:Class"
   }, {
-    "id" : "292",
+    "id" : "287",
     "type" : "owl:Class"
   }, {
     "id" : "144",
@@ -280,7 +274,7 @@
     "id" : "123",
     "type" : "owl:Class"
   }, {
-    "id" : "280",
+    "id" : "274",
     "type" : "owl:Class"
   }, {
     "id" : "42",
@@ -289,10 +283,10 @@
     "id" : "191",
     "type" : "owl:Class"
   }, {
-    "id" : "315",
+    "id" : "310",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "318",
+    "id" : "313",
     "type" : "rdfs:Literal"
   }, {
     "id" : "137",
@@ -301,7 +295,7 @@
     "id" : "196",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "319",
+    "id" : "314",
     "type" : "rdfs:Literal"
   }, {
     "id" : "177",
@@ -310,34 +304,34 @@
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "328",
+    "id" : "323",
     "type" : "rdfs:Literal"
   }, {
     "id" : "166",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "325",
+    "id" : "320",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "321",
+    "id" : "316",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "329",
+    "id" : "324",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "327",
+    "id" : "322",
     "type" : "rdfs:Literal"
   }, {
     "id" : "117",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "264",
+    "id" : "261",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "317",
+    "id" : "312",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "294",
+    "id" : "289",
     "type" : "rdfs:Literal"
   }, {
     "id" : "43",
@@ -346,13 +340,13 @@
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "205",
-    "type" : "owl:Class"
-  }, {
     "id" : "60",
     "type" : "owl:Class"
   }, {
-    "id" : "91",
+    "id" : "326",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
     "type" : "owl:Class"
   }, {
     "id" : "25",
@@ -364,7 +358,7 @@
     "id" : "124",
     "type" : "owl:Class"
   }, {
-    "id" : "258",
+    "id" : "255",
     "type" : "rdfs:Literal"
   }, {
     "id" : "97",
@@ -373,7 +367,7 @@
     "id" : "34",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "239",
+    "id" : "236",
     "type" : "rdfs:Literal"
   }, {
     "id" : "84",
@@ -382,7 +376,7 @@
     "id" : "82",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "272",
+    "id" : "269",
     "type" : "owl:Class"
   }, {
     "id" : "121",
@@ -394,10 +388,10 @@
     "id" : "65",
     "type" : "owl:intersectionOf"
   }, {
-    "id" : "333",
+    "id" : "329",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "296",
+    "id" : "291",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "171",
@@ -409,13 +403,13 @@
     "id" : "139",
     "type" : "owl:Class"
   }, {
-    "id" : "226",
+    "id" : "224",
     "type" : "rdfs:Literal"
   }, {
     "id" : "62",
     "type" : "owl:Class"
   }, {
-    "id" : "314",
+    "id" : "304",
     "type" : "owl:Class"
   }, {
     "id" : "182",
@@ -436,22 +430,22 @@
     "id" : "179",
     "type" : "owl:Class"
   }, {
-    "id" : "368",
+    "id" : "364",
     "type" : "rdfs:Literal"
   }, {
     "id" : "199",
     "type" : "owl:Class"
   }, {
-    "id" : "351",
+    "id" : "347",
     "type" : "rdfs:Literal"
   }, {
     "id" : "201",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "361",
+    "id" : "357",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "213",
+    "id" : "211",
     "type" : "rdfs:Literal"
   } ],
   "classAttribute" : [ {
@@ -497,7 +491,7 @@
         "IRI-based" : "Panel_TurnOver_and_Tooling_Return_Station"
       }
     } ],
-    "id" : "46",
+    "id" : "44",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Production_Process",
@@ -518,15 +512,6 @@
     "subClasses" : [ "68", "69", "70" ],
     "id" : "66",
     "superClasses" : [ "67" ]
-  }, {
-    "iri" : "https://w3id.org/oho-pro#Operative",
-    "baseIri" : "https://w3id.org/oho-pro",
-    "instances" : 1,
-    "label" : {
-      "IRI-based" : "Operative"
-    },
-    "id" : "89",
-    "superClasses" : [ "72" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Wall_Panel",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -598,15 +583,6 @@
         "IRI-based" : "3BED_ROOF_GABLE_LSF_05"
       }
     }, {
-      "iri" : "https://w3id.org/oho-pro#3BED_ROOF_GABLE_PARTY_WALL_LSF_10",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "comment" : {
-        "undefined" : "Roof Gable Party Wall Panels LHS and RHS"
-      },
-      "labels" : {
-        "IRI-based" : "3BED_ROOF_GABLE_PARTY_WALL_LSF_10"
-      }
-    }, {
       "iri" : "https://w3id.org/oho-pro#3BED_FF_PARTYWALL_LSF_09",
       "baseIri" : "https://w3id.org/oho-pro",
       "comment" : {
@@ -614,6 +590,15 @@
       },
       "labels" : {
         "IRI-based" : "3BED_FF_PARTYWALL_LSF_09"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#3BED_ROOF_GABLE_PARTY_WALL_LSF_10",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "comment" : {
+        "undefined" : "Roof Gable Party Wall Panels LHS and RHS"
+      },
+      "labels" : {
+        "IRI-based" : "3BED_ROOF_GABLE_PARTY_WALL_LSF_10"
       }
     }, {
       "iri" : "https://w3id.org/oho-pro#3BED_GF_FRONT_LSF_01",
@@ -625,8 +610,17 @@
         "IRI-based" : "3BED_GF_FRONT_LSF_01"
       }
     } ],
-    "id" : "90",
-    "superClasses" : [ "91" ]
+    "id" : "89",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Operative",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Operative"
+    },
+    "id" : "91",
+    "superClasses" : [ "72" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Bathroom_Pod",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -635,7 +629,7 @@
       "IRI-based" : "Bathroom_Pod"
     },
     "id" : "102",
-    "superClasses" : [ "91" ]
+    "superClasses" : [ "90" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#WorkStation",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -653,16 +647,16 @@
       "IRI-based" : "First_Activity"
     },
     "individuals" : [ {
-      "iri" : "https://w3id.org/oho-pro#A5.4_Deliver_Pallets_to_Work_Stations",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "A5.4_Deliver_Pallets_to_Work_Stations"
-      }
-    }, {
       "iri" : "https://w3id.org/oho-pro#A5.30_Start_PMS_System",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
         "IRI-based" : "A5.30_Start_PMS_System"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.4_Deliver_Pallets_to_Work_Stations",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.4_Deliver_Pallets_to_Work_Stations"
       }
     } ],
     "id" : "110",
@@ -689,7 +683,7 @@
       "IRI-based" : "Volumetric_Room_Unit"
     },
     "id" : "113",
-    "superClasses" : [ "91" ]
+    "superClasses" : [ "90" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Panel_Frame_Assembly",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -779,7 +773,7 @@
     "label" : {
       "IRI-based" : "Named_Station"
     },
-    "subClasses" : [ "78", "80", "86", "88", "51", "53", "1", "8", "12", "17", "19", "21", "23", "25", "124", "46", "125", "126" ],
+    "subClasses" : [ "78", "80", "86", "88", "51", "53", "1", "8", "12", "17", "19", "21", "23", "25", "124", "44", "125", "126" ],
     "id" : "2",
     "superClasses" : [ "67" ]
   }, {
@@ -979,7 +973,7 @@
     "label" : {
       "IRI-based" : "Procurement"
     },
-    "id" : "169",
+    "id" : "167",
     "superClasses" : [ "152" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#M&E_Component",
@@ -1016,7 +1010,7 @@
     "label" : {
       "IRI-based" : "Overhead"
     },
-    "subClasses" : [ "197", "169", "198", "164", "199", "186", "188", "180", "191", "151", "194" ],
+    "subClasses" : [ "197", "167", "198", "164", "199", "186", "188", "180", "191", "151", "194" ],
     "comment" : {
       "undefined" : "Head office overhead requirement"
     },
@@ -1068,24 +1062,7 @@
       "IRI-based" : "Stair_Unit"
     },
     "id" : "203",
-    "superClasses" : [ "91" ]
-  }, {
-    "iri" : "https://w3id.org/oho#Type_2_House",
-    "baseIri" : "https://w3id.org/oho",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Type_2_House"
-    },
-    "individuals" : [ {
-      "iri" : "https://w3id.org/oho-pro#LSF_2BED_SemiDetached_House",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "LSF_2BED_SemiDetached_House"
-      }
-    } ],
-    "attributes" : [ "external" ],
-    "id" : "204",
-    "superClasses" : [ "205" ]
+    "superClasses" : [ "90" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Product_Level_Driver",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -1111,7 +1088,7 @@
     "label" : {
       "IRI-based" : "Direct_Labour"
     },
-    "subClasses" : [ "140", "131", "89" ],
+    "subClasses" : [ "140", "131", "91" ],
     "id" : "72",
     "superClasses" : [ "73" ]
   }, {
@@ -1182,7 +1159,7 @@
         "IRI-based" : "Process_Chain_13"
       }
     } ],
-    "id" : "219",
+    "id" : "217",
     "superClasses" : [ "139" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#GF_Pod_Finishing",
@@ -1262,15 +1239,6 @@
     "id" : "194",
     "superClasses" : [ "152" ]
   }, {
-    "iri" : "https://w3id.org/oho-pro#Decoration_Component",
-    "baseIri" : "https://w3id.org/oho-pro",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Decoration_Component"
-    },
-    "id" : "39",
-    "superClasses" : [ "10" ]
-  }, {
     "iri" : "https://w3id.org/oho-pro#Unload_Station",
     "baseIri" : "https://w3id.org/oho-pro",
     "instances" : 1,
@@ -1279,6 +1247,15 @@
     },
     "id" : "17",
     "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/oho-pro#Decoration_Component",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Decoration_Component"
+    },
+    "id" : "39",
+    "superClasses" : [ "10" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#LastSequence",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -1299,7 +1276,7 @@
         "IRI-based" : "Process_Chain_14"
       }
     } ],
-    "id" : "224",
+    "id" : "222",
     "superClasses" : [ "139" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Activity",
@@ -1310,29 +1287,6 @@
     },
     "subClasses" : [ "160", "56", "121", "111", "142" ],
     "id" : "112"
-  }, {
-    "iri" : "https://w3id.org/oho#Type_1_House",
-    "baseIri" : "https://w3id.org/oho",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Type_1_House"
-    },
-    "individuals" : [ {
-      "iri" : "https://w3id.org/oho-pro#LSF_3BED_SemiDetached_House",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "LSF_3BED_SemiDetached_House"
-      }
-    }, {
-      "iri" : "https://w3id.org/oho-pro#LSF_3BED_SemiDetached_House_Manual",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "LSF_3BED_SemiDetached_House_Manual"
-      }
-    } ],
-    "attributes" : [ "external" ],
-    "id" : "228",
-    "superClasses" : [ "205" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Direct_Activity",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -1413,8 +1367,8 @@
     "label" : {
       "IRI-based" : "Roof"
     },
-    "id" : "256",
-    "superClasses" : [ "91" ]
+    "id" : "253",
+    "superClasses" : [ "90" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Business_Rate",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -1468,59 +1422,69 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "259",
+    "id" : "256",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "45",
+    "id" : "46",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "261",
+    "id" : "258",
     "label" : {
       "IRI-based" : "integer"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "263",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "264",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "169",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "265",
     "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "266",
-    "label" : {
       "IRI-based" : "integer"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "267",
+    "iri" : "https://w3id.org/oho-pro#Indirect_Labour",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "instances" : 0,
     "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "168",
-    "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "268",
-    "label" : {
-      "IRI-based" : "integer"
-    }
+      "IRI-based" : "Indirect_Labour"
+    },
+    "subClasses" : [ "137" ],
+    "id" : "76",
+    "superClasses" : [ "73" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Panel_Frame_and_Cladding_Assembly",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -1543,16 +1507,6 @@
     } ],
     "id" : "126",
     "superClasses" : [ "2" ]
-  }, {
-    "iri" : "https://w3id.org/oho-pro#Indirect_Labour",
-    "baseIri" : "https://w3id.org/oho-pro",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Indirect_Labour"
-    },
-    "subClasses" : [ "137" ],
-    "id" : "76",
-    "superClasses" : [ "73" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -1617,7 +1571,7 @@
     "superClasses" : [ "4" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "232",
+    "id" : "229",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1637,7 +1591,7 @@
       "IRI-based" : "Floor_Panel"
     },
     "id" : "286",
-    "superClasses" : [ "91" ]
+    "superClasses" : [ "90" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Process_Chain",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -1739,7 +1693,7 @@
     "comment" : {
       "undefined" : "Repetitive activities involved"
     },
-    "id" : "292",
+    "id" : "287",
     "superClasses" : [ "123" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Production_Year",
@@ -1818,7 +1772,7 @@
     "label" : {
       "IRI-based" : "Process_Type"
     },
-    "subClasses" : [ "139", "122", "292" ],
+    "subClasses" : [ "139", "122", "287" ],
     "id" : "123"
   }, {
     "iri" : "https://w3id.org/oho-pro#StartSequence",
@@ -1840,7 +1794,7 @@
         "IRI-based" : "Process_Chain_3"
       }
     } ],
-    "id" : "280",
+    "id" : "274",
     "superClasses" : [ "139" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Floor_Component",
@@ -1862,14 +1816,14 @@
     "superClasses" : [ "152" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "315",
+    "id" : "310",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "318",
+    "id" : "313",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1899,7 +1853,7 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "319",
+    "id" : "314",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1929,7 +1883,7 @@
     "superClasses" : [ "2" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "328",
+    "id" : "323",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1943,28 +1897,28 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "325",
+    "id" : "320",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "321",
+    "id" : "316",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "329",
+    "id" : "324",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "327",
+    "id" : "322",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1978,21 +1932,21 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "264",
+    "id" : "261",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "317",
+    "id" : "312",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "294",
+    "id" : "289",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -2042,16 +1996,6 @@
     "id" : "5",
     "superClasses" : [ "3" ]
   }, {
-    "iri" : "https://w3id.org/oho#House",
-    "baseIri" : "https://w3id.org/oho",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "House"
-    },
-    "subClasses" : [ "204", "228" ],
-    "attributes" : [ "external" ],
-    "id" : "205"
-  }, {
     "iri" : "https://w3id.org/oho-pro#Panel_Cladding_Assembly",
     "baseIri" : "https://w3id.org/oho-pro",
     "instances" : 0,
@@ -2077,14 +2021,42 @@
     "id" : "60",
     "superClasses" : [ "59" ]
   }, {
+    "iri" : "https://w3id.org/oho#House",
+    "baseIri" : "https://w3id.org/oho",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "House"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-pro#LSF_2BED_SemiDetached_House",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "LSF_2BED_SemiDetached_House"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#LSF_3BED_SemiDetached_House",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "LSF_3BED_SemiDetached_House"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#LSF_3BED_SemiDetached_House_Manual",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "LSF_3BED_SemiDetached_House_Manual"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "326"
+  }, {
     "iri" : "https://w3id.org/oho-pro#Product",
     "baseIri" : "https://w3id.org/oho-pro",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Product"
     },
-    "subClasses" : [ "256", "203", "314", "286", "90", "102", "113" ],
-    "id" : "91"
+    "subClasses" : [ "253", "203", "304", "286", "89", "102", "113" ],
+    "id" : "90"
   }, {
     "iri" : "https://w3id.org/oho-pro#FF_Pod_Frame_Assembly",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -2119,7 +2091,7 @@
     "superClasses" : [ "2" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "258",
+    "id" : "255",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -2140,7 +2112,7 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "239",
+    "id" : "236",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -2197,7 +2169,7 @@
         "IRI-based" : "Number_of_Unit"
       }
     } ],
-    "id" : "272"
+    "id" : "269"
   }, {
     "iri" : "https://w3id.org/oho-pro#Production_Activity",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -2212,16 +2184,16 @@
         "IRI-based" : "A5.43_Transfer_Frame_to_Turnover_Unit"
       }
     }, {
-      "iri" : "https://w3id.org/oho-pro#A5.51_Deliver_CP_Board_to_Station",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "A5.51_Deliver_CP_Board_to_Station"
-      }
-    }, {
       "iri" : "https://w3id.org/oho-pro#A5.34_Tooling_SetUp_for_Batch",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
         "IRI-based" : "A5.34_Tooling_SetUp_for_Batch"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.51_Deliver_CP_Board_to_Station",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.51_Deliver_CP_Board_to_Station"
       }
     }, {
       "iri" : "https://w3id.org/oho-pro#A5.36_Verify_and_Inspect_SetUp",
@@ -2260,16 +2232,16 @@
         "IRI-based" : "A5.5_Select_Steel_Frame_for_Batch"
       }
     }, {
-      "iri" : "https://w3id.org/oho-pro#A5.24_Install_Candy_Wall_System",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "A5.24_Install_Candy_Wall_System"
-      }
-    }, {
       "iri" : "https://w3id.org/oho-pro#A5.21_Visual_Inspection_on_Joints",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
         "IRI-based" : "A5.21_Visual_Inspection_on_Joints"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.24_Install_Candy_Wall_System",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.24_Install_Candy_Wall_System"
       }
     }, {
       "iri" : "https://w3id.org/oho-pro#A5.52_Load_CP_Board_on_Frame",
@@ -2326,16 +2298,16 @@
         "IRI-based" : "A5.62_Install_Breather_Membrane"
       }
     }, {
-      "iri" : "https://w3id.org/oho-pro#A5.31_Load_BIM_Model",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "A5.31_Load_BIM_Model"
-      }
-    }, {
       "iri" : "https://w3id.org/oho-pro#A5.13_Inspect_Quality_of_Fixing",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
         "IRI-based" : "A5.13_Inspect_Quality_of_Fixing"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.31_Load_BIM_Model",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.31_Load_BIM_Model"
       }
     }, {
       "iri" : "https://w3id.org/oho-pro#A5.69_Install_Candy_Wall_System",
@@ -2386,28 +2358,28 @@
         "IRI-based" : "A5.4_Deliver_Pallets_to_Work_Stations"
       }
     }, {
-      "iri" : "https://w3id.org/oho-pro#A5.15_Fix_Window_and_Door_Pod",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "A5.15_Fix_Window_and_Door_Pod"
-      }
-    }, {
       "iri" : "https://w3id.org/oho-pro#A5.23_Install_Cavity_Insulation",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
         "IRI-based" : "A5.23_Install_Cavity_Insulation"
       }
     }, {
-      "iri" : "https://w3id.org/oho-pro#A5.7_Inspect_Quality_of_Fixing",
+      "iri" : "https://w3id.org/oho-pro#A5.15_Fix_Window_and_Door_Pod",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
-        "IRI-based" : "A5.7_Inspect_Quality_of_Fixing"
+        "IRI-based" : "A5.15_Fix_Window_and_Door_Pod"
       }
     }, {
       "iri" : "https://w3id.org/oho-pro#A5.10_Check_CP_Board_Alignment",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
         "IRI-based" : "A5.10_Check_CP_Board_Alignment"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.7_Inspect_Quality_of_Fixing",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.7_Inspect_Quality_of_Fixing"
       }
     }, {
       "iri" : "https://w3id.org/oho-pro#A5.59_Load_Panel_to_Transport_Trolley",
@@ -2500,16 +2472,16 @@
         "IRI-based" : "A5.26_Install_Window_and_Door"
       }
     }, {
-      "iri" : "https://w3id.org/oho-pro#A5.45_Transfer_Frame_to_Fixing_Station_2",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "A5.45_Transfer_Frame_to_Fixing_Station_2"
-      }
-    }, {
       "iri" : "https://w3id.org/oho-pro#A5.11_Load_and_Place_CP_Board_on_Frame",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
         "IRI-based" : "A5.11_Load_and_Place_CP_Board_on_Frame"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.45_Transfer_Frame_to_Fixing_Station_2",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.45_Transfer_Frame_to_Fixing_Station_2"
       }
     }, {
       "iri" : "https://w3id.org/oho-pro#A5.49_Visual_Inspection_on_Frame_Connection",
@@ -2578,16 +2550,16 @@
         "IRI-based" : "A5.74_Load_Panels_to_Transport_Trolley"
       }
     }, {
-      "iri" : "https://w3id.org/oho-pro#A5.32_Run_and_Monitor_Process",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "A5.32_Run_and_Monitor_Process"
-      }
-    }, {
       "iri" : "https://w3id.org/oho-pro#A5.38_Transfer_Frame_to_Fixing_Station",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
         "IRI-based" : "A5.38_Transfer_Frame_to_Fixing_Station"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A5.32_Run_and_Monitor_Process",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A5.32_Run_and_Monitor_Process"
       }
     }, {
       "iri" : "https://w3id.org/oho-pro#A5.61_Bond_EPDM",
@@ -2658,14 +2630,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "333",
+    "id" : "329",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "296",
+    "id" : "291",
     "label" : {
       "IRI-based" : "double"
     }
@@ -2729,16 +2701,16 @@
         "IRI-based" : "Process_Chain_12"
       }
     }, {
-      "iri" : "https://w3id.org/oho-pro#Process_Chain_10",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "Process_Chain_10"
-      }
-    }, {
       "iri" : "https://w3id.org/oho-pro#Process_Chain_1",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
         "IRI-based" : "Process_Chain_1"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#Process_Chain_10",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "Process_Chain_10"
       }
     }, {
       "iri" : "https://w3id.org/oho-pro#Process_Chain_2",
@@ -2789,7 +2761,7 @@
         "IRI-based" : "Process_Chain_9"
       }
     } ],
-    "subClasses" : [ "219", "224", "280" ],
+    "subClasses" : [ "217", "222", "274" ],
     "comment" : {
       "undefined" : "Finish to start relaionship between activities in a process"
     },
@@ -2797,7 +2769,7 @@
     "superClasses" : [ "123" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "226",
+    "id" : "224",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -2828,8 +2800,8 @@
     "label" : {
       "IRI-based" : "Kitchen_Pod"
     },
-    "id" : "314",
-    "superClasses" : [ "91" ]
+    "id" : "304",
+    "superClasses" : [ "90" ]
   }, {
     "iri" : "https://w3id.org/oho-pro#Semi_Automated_Line_Manufacturing_Method",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -2902,16 +2874,16 @@
         "IRI-based" : "A6.2_Administration"
       }
     }, {
-      "iri" : "https://w3id.org/oho-pro#A6.8_Factory",
-      "baseIri" : "https://w3id.org/oho-pro",
-      "labels" : {
-        "IRI-based" : "A6.8_Factory"
-      }
-    }, {
       "iri" : "https://w3id.org/oho-pro#A6.1_Supervising",
       "baseIri" : "https://w3id.org/oho-pro",
       "labels" : {
         "IRI-based" : "A6.1_Supervising"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-pro#A6.8_Factory",
+      "baseIri" : "https://w3id.org/oho-pro",
+      "labels" : {
+        "IRI-based" : "A6.8_Factory"
       }
     }, {
       "iri" : "https://w3id.org/oho-pro#A6.7_Security",
@@ -2967,7 +2939,7 @@
     "superClasses" : [ "175" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "368",
+    "id" : "364",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -2983,7 +2955,7 @@
     "superClasses" : [ "152" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "351",
+    "id" : "347",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -2997,14 +2969,14 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "361",
+    "id" : "357",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "213",
+    "id" : "211",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -3056,7 +3028,7 @@
     "id" : "35",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "44",
+    "id" : "45",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "47",
@@ -3209,7 +3181,7 @@
     "id" : "165",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "167",
+    "id" : "168",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "170",
@@ -3263,8 +3235,14 @@
     "id" : "98",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "206",
+    "id" : "204",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "208",
     "type" : "rdfs:SubClassOf"
@@ -3273,13 +3251,13 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "210",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "211",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "212",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "214",
     "type" : "rdfs:SubClassOf"
@@ -3290,50 +3268,53 @@
     "id" : "216",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "217",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "218",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "219",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "220",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "221",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "222",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "223",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "225",
+    "id" : "223",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "227",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "229",
-    "type" : "rdfs:SubClassOf"
+    "id" : "228",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "230",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "231",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "233",
     "type" : "rdf:Property"
   }, {
-    "id" : "234",
+    "id" : "231",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "236",
+    "id" : "233",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "237",
+    "type" : "rdf:Property"
   }, {
     "id" : "238",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdf:Property"
+  }, {
+    "id" : "239",
+    "type" : "rdf:Property"
   }, {
     "id" : "240",
     "type" : "rdf:Property"
@@ -3348,7 +3329,7 @@
     "type" : "rdf:Property"
   }, {
     "id" : "244",
-    "type" : "rdf:Property"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "245",
     "type" : "rdf:Property"
@@ -3357,39 +3338,30 @@
     "type" : "rdf:Property"
   }, {
     "id" : "247",
-    "type" : "owl:objectProperty"
+    "type" : "rdf:Property"
   }, {
     "id" : "248",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "249",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "250",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "251",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "253",
+    "id" : "251",
     "type" : "owl:objectProperty"
   }, {
     "id" : "36",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "257",
+    "id" : "254",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "128",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "235",
+    "id" : "232",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "263",
+    "id" : "260",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "269",
+    "id" : "266",
     "type" : "owl:objectProperty"
   }, {
     "id" : "129",
@@ -3398,67 +3370,61 @@
     "id" : "155",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "267",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "268",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "270",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "271",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "273",
     "type" : "rdf:Property"
   }, {
-    "id" : "274",
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "272",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "273",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "275",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "276",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "277",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "278",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "276",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "277",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "205",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "278",
+    "type" : "rdf:Property"
+  }, {
     "id" : "279",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "280",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "281",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "282",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "207",
     "type" : "owl:objectProperty"
   }, {
     "id" : "283",
     "type" : "rdf:Property"
   }, {
     "id" : "284",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "285",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "115",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "287",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "288",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "289",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "290",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "291",
     "type" : "rdf:Property"
   }, {
     "id" : "37",
@@ -3467,40 +3433,52 @@
     "id" : "252",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "254",
+    "id" : "249",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "288",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "290",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "250",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "292",
+    "type" : "rdf:Property"
   }, {
     "id" : "293",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdf:Property"
+  }, {
+    "id" : "294",
+    "type" : "rdf:Property"
   }, {
     "id" : "295",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "255",
-    "type" : "owl:objectProperty"
+    "id" : "296",
+    "type" : "rdf:Property"
   }, {
     "id" : "297",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "298",
     "type" : "rdf:Property"
   }, {
     "id" : "299",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "300",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "301",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "302",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "303",
+    "id" : "302",
     "type" : "rdf:Property"
   }, {
-    "id" : "304",
+    "id" : "303",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "305",
@@ -3510,70 +3488,70 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "307",
-    "type" : "rdf:Property"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "308",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "309",
     "type" : "rdf:Property"
   }, {
-    "id" : "310",
+    "id" : "309",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "311",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "312",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "313",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "316",
-    "type" : "owl:datatypeProperty"
-  }, {
     "id" : "93",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "320",
+    "id" : "315",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "322",
+    "id" : "317",
     "type" : "owl:objectProperty"
   }, {
     "id" : "130",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "324",
+    "id" : "319",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "323",
+    "id" : "318",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "326",
+    "id" : "321",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "260",
+    "id" : "257",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "325",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "327",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "328",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "330",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "331",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "332",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "333",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "334",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "335",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "336",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "337",
     "type" : "rdfs:SubClassOf"
@@ -3585,28 +3563,25 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "340",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "341",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "342",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "343",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "344",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "345",
     "type" : "owl:disjointWith"
   }, {
     "id" : "346",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "347",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "348",
     "type" : "owl:disjointWith"
@@ -3615,63 +3590,54 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "350",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "351",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "352",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "353",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "354",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "355",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "356",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "357",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "358",
     "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "237",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "359",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "360",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "362",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "363",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "364",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "105",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "365",
+    "id" : "361",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "262",
+    "id" : "362",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "259",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "366",
+    "id" : "363",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "367",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "369",
+    "id" : "365",
     "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
@@ -3785,18 +3751,18 @@
     },
     "domain" : "14",
     "subproperty" : [ "36", "37" ],
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "35"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasWaitingTime",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "45",
+    "range" : "46",
     "label" : {
       "IRI-based" : "hasWaitingTime"
     },
     "domain" : "14",
-    "attributes" : [ "functional", "datatype" ],
-    "id" : "44"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "45"
   }, {
     "iri" : "https://w3id.org/oho-pro#isConsumedBy",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -3805,7 +3771,7 @@
       "IRI-based" : "isConsumedBy"
     },
     "domain" : "14",
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "47"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasCount",
@@ -3855,7 +3821,7 @@
       "IRI-based" : "isComponentPartOf"
     },
     "domain" : "14",
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "74"
   }, {
     "range" : "73",
@@ -3911,7 +3877,7 @@
       "IRI-based" : "belongsTo"
     },
     "domain" : "14",
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "92"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasTotalTimeAllocation",
@@ -3994,7 +3960,7 @@
       "IRI-based" : "hasSubProcess"
     },
     "domain" : "14",
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "114"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasProcessCost",
@@ -4014,7 +3980,7 @@
       "IRI-based" : "hasDurationInWorkHours"
     },
     "domain" : "14",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "118"
   }, {
     "iri" : "https://w3id.org/oho-pro#isActivityType",
@@ -4036,7 +4002,7 @@
     },
     "domain" : "14",
     "subproperty" : [ "129", "130" ],
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "127"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasProductionYear",
@@ -4082,7 +4048,7 @@
       "IRI-based" : "consume"
     },
     "domain" : "14",
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "147"
   }, {
     "range" : "4",
@@ -4122,7 +4088,7 @@
     "id" : "156"
   }, {
     "range" : "72",
-    "domain" : "89",
+    "domain" : "91",
     "attributes" : [ "object", "anonymous" ],
     "id" : "158"
   }, {
@@ -4158,13 +4124,13 @@
   }, {
     "iri" : "https://w3id.org/oho-pro#hasDurationFromStart",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "168",
+    "range" : "169",
     "label" : {
       "IRI-based" : "hasDurationFromStart"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "167"
+    "id" : "168"
   }, {
     "iri" : "https://w3id.org/oho-pro#isFinishStationOf",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -4290,64 +4256,64 @@
       "IRI-based" : "isSubsequentStationOf"
     },
     "domain" : "14",
-    "subproperty" : [ "207" ],
-    "attributes" : [ "object", "transitive" ],
-    "id" : "206"
+    "subproperty" : [ "205" ],
+    "attributes" : [ "transitive", "object" ],
+    "id" : "204"
   }, {
     "range" : "152",
-    "domain" : "169",
+    "domain" : "167",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "208"
+    "id" : "206"
   }, {
     "range" : "152",
     "domain" : "198",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "209"
+    "id" : "207"
   }, {
     "range" : "152",
     "domain" : "164",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "210"
+    "id" : "208"
   }, {
     "range" : "152",
     "domain" : "199",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "211"
+    "id" : "209"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasTotalLabourHourAllocation",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "213",
+    "range" : "211",
     "label" : {
       "IRI-based" : "hasTotalLabourHourAllocation"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "212"
+    "id" : "210"
   }, {
     "range" : "2",
     "domain" : "126",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "214"
+    "id" : "212"
   }, {
     "range" : "143",
     "domain" : "144",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "215"
+    "id" : "213"
   }, {
     "range" : "142",
     "domain" : "141",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "216"
+    "id" : "214"
   }, {
     "range" : "142",
     "domain" : "171",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "217"
+    "id" : "215"
   }, {
     "range" : "142",
     "domain" : "172",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "218"
+    "id" : "216"
   }, {
     "iri" : "https://w3id.org/oho-pro#isComposedOf",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -4356,18 +4322,18 @@
       "IRI-based" : "isComposedOf"
     },
     "domain" : "14",
-    "attributes" : [ "object", "transitive" ],
-    "id" : "220"
+    "attributes" : [ "transitive", "object" ],
+    "id" : "218"
   }, {
     "range" : "142",
     "domain" : "145",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "221"
+    "id" : "219"
   }, {
     "range" : "152",
     "domain" : "197",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "222"
+    "id" : "220"
   }, {
     "iri" : "https://w3id.org/oho-pro#isFinishActivityOf",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -4378,88 +4344,88 @@
     "superproperty" : [ "105" ],
     "domain" : "14",
     "attributes" : [ "object" ],
-    "id" : "223"
+    "id" : "221"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasLabourQuantity",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "226",
+    "range" : "224",
     "label" : {
       "IRI-based" : "hasLabourQuantity"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "225"
+    "id" : "223"
   }, {
     "range" : "2",
     "domain" : "124",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "227"
+    "id" : "225"
   }, {
     "range" : "2",
-    "domain" : "46",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "229"
+    "id" : "226"
   }, {
     "range" : "2",
     "domain" : "125",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "230"
+    "id" : "227"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasSubcontractorCost",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "232",
+    "range" : "229",
     "label" : {
       "IRI-based" : "hasSubcontractorCost"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "231"
+    "id" : "228"
   }, {
     "domain" : "199",
     "range" : "199",
-    "id" : "233",
+    "id" : "230",
     "label" : {
       "IRI-based" : "30",
       "undefined" : "is a"
     }
   }, {
     "iri" : "https://w3id.org/oho-pro#hasFinishActivity",
-    "inverse" : "223",
+    "inverse" : "221",
     "baseIri" : "https://w3id.org/oho-pro",
     "range" : "14",
     "label" : {
       "IRI-based" : "hasFinishActivity"
     },
-    "superproperty" : [ "235" ],
+    "superproperty" : [ "232" ],
     "domain" : "14",
-    "attributes" : [ "functional", "object" ],
-    "id" : "234"
+    "attributes" : [ "object", "functional" ],
+    "id" : "231"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasSubsequentStation",
-    "inverse" : "206",
+    "inverse" : "204",
     "baseIri" : "https://w3id.org/oho-pro",
     "range" : "14",
     "label" : {
       "IRI-based" : "hasSubsequentStation"
     },
     "domain" : "14",
-    "subproperty" : [ "237" ],
-    "attributes" : [ "object", "transitive" ],
-    "id" : "236"
+    "subproperty" : [ "234" ],
+    "attributes" : [ "transitive", "object" ],
+    "id" : "233"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasAnnualCost",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "239",
+    "range" : "236",
     "label" : {
       "IRI-based" : "hasAnnualCost"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "238"
+    "id" : "235"
   }, {
     "domain" : "69",
     "range" : "21",
-    "id" : "240",
+    "id" : "237",
     "label" : {
       "IRI-based" : "29",
       "undefined" : "is a"
@@ -4467,7 +4433,7 @@
   }, {
     "domain" : "88",
     "range" : "88",
-    "id" : "241",
+    "id" : "238",
     "label" : {
       "IRI-based" : "28",
       "undefined" : "is a"
@@ -4475,7 +4441,7 @@
   }, {
     "domain" : "180",
     "range" : "180",
-    "id" : "242",
+    "id" : "239",
     "label" : {
       "IRI-based" : "25",
       "undefined" : "is a"
@@ -4483,7 +4449,7 @@
   }, {
     "domain" : "51",
     "range" : "51",
-    "id" : "243",
+    "id" : "240",
     "label" : {
       "IRI-based" : "24",
       "undefined" : "is a"
@@ -4491,7 +4457,7 @@
   }, {
     "domain" : "124",
     "range" : "124",
-    "id" : "244",
+    "id" : "241",
     "label" : {
       "IRI-based" : "27",
       "undefined" : "is a"
@@ -4499,7 +4465,7 @@
   }, {
     "domain" : "68",
     "range" : "125",
-    "id" : "245",
+    "id" : "242",
     "label" : {
       "IRI-based" : "26",
       "undefined" : "is a"
@@ -4507,7 +4473,7 @@
   }, {
     "domain" : "197",
     "range" : "197",
-    "id" : "246",
+    "id" : "243",
     "label" : {
       "IRI-based" : "21",
       "undefined" : "is a"
@@ -4521,12 +4487,12 @@
       "IRI-based" : "hasComponentPart"
     },
     "domain" : "14",
-    "attributes" : [ "object", "transitive" ],
-    "id" : "247"
+    "attributes" : [ "transitive", "object" ],
+    "id" : "244"
   }, {
     "domain" : "151",
     "range" : "151",
-    "id" : "248",
+    "id" : "245",
     "label" : {
       "IRI-based" : "20",
       "undefined" : "is a"
@@ -4534,7 +4500,7 @@
   }, {
     "domain" : "78",
     "range" : "78",
-    "id" : "249",
+    "id" : "246",
     "label" : {
       "IRI-based" : "23",
       "undefined" : "is a"
@@ -4542,11 +4508,23 @@
   }, {
     "domain" : "19",
     "range" : "19",
-    "id" : "250",
+    "id" : "247",
     "label" : {
       "IRI-based" : "22",
       "undefined" : "is a"
     }
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasSubsequentActivity",
+    "inverse" : "249",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasSubsequentActivity"
+    },
+    "domain" : "14",
+    "subproperty" : [ "250" ],
+    "attributes" : [ "transitive", "object" ],
+    "id" : "248"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasStartActivity",
     "inverse" : "252",
@@ -4555,22 +4533,10 @@
     "label" : {
       "IRI-based" : "hasStartActivity"
     },
-    "superproperty" : [ "235" ],
+    "superproperty" : [ "232" ],
     "domain" : "14",
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "object", "functional" ],
     "id" : "251"
-  }, {
-    "iri" : "https://w3id.org/oho-pro#hasSubsequentActivity",
-    "inverse" : "254",
-    "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "14",
-    "label" : {
-      "IRI-based" : "hasSubsequentActivity"
-    },
-    "domain" : "14",
-    "subproperty" : [ "255" ],
-    "attributes" : [ "object", "transitive" ],
-    "id" : "253"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasFinishProcess",
     "inverse" : "29",
@@ -4581,18 +4547,18 @@
     },
     "superproperty" : [ "35" ],
     "domain" : "14",
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "object", "functional" ],
     "id" : "36"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasTotalProductionQuanitityPerEconimicLife",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "258",
+    "range" : "255",
     "label" : {
       "IRI-based" : "hasTotalProductionQuanitityPerEconimicLife"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "257"
+    "id" : "254"
   }, {
     "iri" : "https://w3id.org/oho-pro#isSubStationOf",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -4601,8 +4567,8 @@
       "IRI-based" : "isSubStationOf"
     },
     "domain" : "14",
-    "subproperty" : [ "170", "260" ],
-    "attributes" : [ "object", "transitive" ],
+    "subproperty" : [ "170", "257" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "128"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasSubActivity",
@@ -4613,19 +4579,19 @@
       "IRI-based" : "hasSubActivity"
     },
     "domain" : "14",
-    "subproperty" : [ "251", "262", "234" ],
-    "attributes" : [ "object", "transitive" ],
-    "id" : "235"
+    "subproperty" : [ "251", "259", "231" ],
+    "attributes" : [ "transitive", "object" ],
+    "id" : "232"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasTotalPlantCost",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "264",
+    "range" : "261",
     "label" : {
       "IRI-based" : "hasTotalPlantCost"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "263"
+    "id" : "260"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasNextSequence",
     "inverse" : "202",
@@ -4635,11 +4601,11 @@
       "IRI-based" : "hasNextSequence"
     },
     "domain" : "14",
-    "attributes" : [ "functional", "object" ],
-    "id" : "269"
+    "attributes" : [ "object", "functional" ],
+    "id" : "266"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasStartStation",
-    "inverse" : "260",
+    "inverse" : "257",
     "baseIri" : "https://w3id.org/oho-pro",
     "range" : "14",
     "label" : {
@@ -4647,7 +4613,7 @@
     },
     "superproperty" : [ "127" ],
     "domain" : "14",
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "object", "functional" ],
     "id" : "129"
   }, {
     "iri" : "https://w3id.org/oho-pro#supplies",
@@ -4666,79 +4632,69 @@
     "label" : {
       "IRI-based" : "isNextActivityOf"
     },
-    "superproperty" : [ "254" ],
+    "superproperty" : [ "249" ],
     "domain" : "14",
     "attributes" : [ "object" ],
-    "id" : "270"
+    "id" : "267"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasCostDriver",
     "inverse" : "28",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "272",
+    "range" : "269",
     "label" : {
       "IRI-based" : "hasCostDriver"
     },
     "domain" : "14",
     "attributes" : [ "object" ],
-    "id" : "271"
+    "id" : "268"
   }, {
     "domain" : "17",
     "range" : "17",
-    "id" : "273",
+    "id" : "270",
     "label" : {
       "IRI-based" : "47",
       "undefined" : "is a"
     }
   }, {
-    "range" : "91",
-    "domain" : "113",
+    "range" : "139",
+    "domain" : "222",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "274"
+    "id" : "271"
   }, {
     "domain" : "188",
     "range" : "188",
-    "id" : "275",
+    "id" : "272",
     "label" : {
       "IRI-based" : "46",
       "undefined" : "is a"
     }
   }, {
     "range" : "139",
-    "domain" : "219",
+    "domain" : "274",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "276"
-  }, {
-    "range" : "139",
-    "domain" : "224",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "277"
+    "id" : "273"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasProcessTime",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "259",
+    "range" : "256",
     "label" : {
       "IRI-based" : "hasProcessTime"
     },
     "domain" : "14",
-    "attributes" : [ "functional", "datatype" ],
-    "id" : "278"
-  }, {
-    "range" : "139",
-    "domain" : "280",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "279"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "275"
   }, {
     "domain" : "70",
-    "range" : "124",
-    "id" : "281",
+    "range" : "53",
+    "id" : "276",
     "label" : {
       "IRI-based" : "43",
       "undefined" : "is a"
     }
   }, {
     "domain" : "70",
-    "range" : "51",
-    "id" : "282",
+    "range" : "17",
+    "id" : "277",
     "label" : {
       "IRI-based" : "42",
       "undefined" : "is a"
@@ -4750,14 +4706,14 @@
     "label" : {
       "IRI-based" : "isNextStationOf"
     },
-    "superproperty" : [ "206" ],
+    "superproperty" : [ "204" ],
     "domain" : "14",
     "attributes" : [ "object" ],
-    "id" : "207"
+    "id" : "205"
   }, {
     "domain" : "125",
     "range" : "125",
-    "id" : "283",
+    "id" : "278",
     "label" : {
       "IRI-based" : "45",
       "undefined" : "is a"
@@ -4765,16 +4721,16 @@
   }, {
     "domain" : "53",
     "range" : "53",
-    "id" : "284",
+    "id" : "279",
     "label" : {
       "IRI-based" : "44",
       "undefined" : "is a"
     }
   }, {
-    "range" : "91",
-    "domain" : "286",
+    "range" : "90",
+    "domain" : "102",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "285"
+    "id" : "280"
   }, {
     "iri" : "https://w3id.org/oho-pro#isSubProcessOf",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -4783,13 +4739,13 @@
       "IRI-based" : "isSubProcessOf"
     },
     "domain" : "14",
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "115"
   }, {
-    "range" : "91",
-    "domain" : "90",
+    "range" : "90",
+    "domain" : "113",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "287"
+    "id" : "281"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasProductionMethod",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -4799,24 +4755,24 @@
     },
     "domain" : "14",
     "attributes" : [ "object" ],
-    "id" : "288"
+    "id" : "282"
   }, {
     "domain" : "70",
-    "range" : "78",
-    "id" : "289",
+    "range" : "19",
+    "id" : "283",
     "label" : {
       "IRI-based" : "41",
       "undefined" : "is a"
     }
   }, {
-    "range" : "91",
-    "domain" : "102",
+    "range" : "139",
+    "domain" : "217",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "290"
+    "id" : "284"
   }, {
     "domain" : "70",
-    "range" : "88",
-    "id" : "291",
+    "range" : "124",
+    "id" : "285",
     "label" : {
       "IRI-based" : "40",
       "undefined" : "is a"
@@ -4831,7 +4787,7 @@
     },
     "superproperty" : [ "35" ],
     "domain" : "14",
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "object", "functional" ],
     "id" : "37"
   }, {
     "iri" : "https://w3id.org/oho-pro#isStartActivityOf",
@@ -4852,45 +4808,45 @@
       "IRI-based" : "isSubsequentActivityOf"
     },
     "domain" : "14",
-    "subproperty" : [ "270" ],
-    "attributes" : [ "object", "transitive" ],
-    "id" : "254"
+    "subproperty" : [ "267" ],
+    "attributes" : [ "transitive", "object" ],
+    "id" : "249"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasSalvageValue",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "294",
+    "range" : "289",
     "label" : {
       "IRI-based" : "hasSalvageValue"
     },
     "domain" : "14",
-    "attributes" : [ "functional", "datatype" ],
-    "id" : "293"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "288"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasDurationAtFinish",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "296",
+    "range" : "291",
     "label" : {
       "IRI-based" : "hasDurationAtFinish"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "295"
+    "id" : "290"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasNextActivity",
-    "inverse" : "270",
+    "inverse" : "267",
     "baseIri" : "https://w3id.org/oho-pro",
     "range" : "14",
     "label" : {
       "IRI-based" : "hasNextActivity"
     },
-    "superproperty" : [ "253" ],
+    "superproperty" : [ "248" ],
     "domain" : "14",
-    "attributes" : [ "functional", "object" ],
-    "id" : "255"
+    "attributes" : [ "object", "functional" ],
+    "id" : "250"
   }, {
     "domain" : "70",
-    "range" : "17",
-    "id" : "297",
+    "range" : "88",
+    "id" : "292",
     "label" : {
       "IRI-based" : "39",
       "undefined" : "is a"
@@ -4898,7 +4854,7 @@
   }, {
     "domain" : "191",
     "range" : "191",
-    "id" : "298",
+    "id" : "293",
     "label" : {
       "IRI-based" : "36",
       "undefined" : "is a"
@@ -4906,7 +4862,7 @@
   }, {
     "domain" : "140",
     "range" : "140",
-    "id" : "299",
+    "id" : "294",
     "label" : {
       "IRI-based" : "35",
       "undefined" : "is a"
@@ -4915,105 +4871,105 @@
     "range" : "123",
     "domain" : "122",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "300"
+    "id" : "295"
   }, {
     "domain" : "70",
-    "range" : "19",
-    "id" : "301",
+    "range" : "78",
+    "id" : "296",
     "label" : {
       "IRI-based" : "38",
       "undefined" : "is a"
     }
   }, {
     "range" : "123",
-    "domain" : "292",
+    "domain" : "287",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "302"
+    "id" : "297"
   }, {
     "domain" : "70",
-    "range" : "53",
-    "id" : "303",
+    "range" : "51",
+    "id" : "298",
     "label" : {
       "IRI-based" : "37",
       "undefined" : "is a"
     }
   }, {
-    "range" : "205",
-    "domain" : "204",
+    "range" : "90",
+    "domain" : "253",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "304"
+    "id" : "299"
   }, {
-    "domain" : "89",
-    "range" : "89",
-    "id" : "305",
+    "domain" : "91",
+    "range" : "91",
+    "id" : "300",
     "label" : {
       "IRI-based" : "32",
       "undefined" : "is a"
     }
   }, {
-    "range" : "205",
-    "domain" : "228",
+    "range" : "90",
+    "domain" : "203",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "306"
+    "id" : "301"
   }, {
     "domain" : "21",
     "range" : "21",
-    "id" : "307",
+    "id" : "302",
     "label" : {
       "IRI-based" : "31",
       "undefined" : "is a"
     }
   }, {
-    "range" : "91",
-    "domain" : "256",
+    "range" : "90",
+    "domain" : "304",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "308"
+    "id" : "303"
   }, {
-    "domain" : "169",
-    "range" : "169",
-    "id" : "309",
+    "domain" : "167",
+    "range" : "167",
+    "id" : "305",
     "label" : {
       "IRI-based" : "34",
       "undefined" : "is a"
     }
   }, {
-    "range" : "91",
-    "domain" : "203",
+    "range" : "90",
+    "domain" : "286",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "310"
+    "id" : "306"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasPeriod",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "266",
+    "range" : "263",
     "label" : {
       "IRI-based" : "hasPeriod"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "311"
+    "id" : "307"
   }, {
     "domain" : "194",
     "range" : "194",
-    "id" : "312",
+    "id" : "308",
     "label" : {
       "IRI-based" : "33",
       "undefined" : "is a"
     }
   }, {
-    "range" : "91",
-    "domain" : "314",
+    "range" : "90",
+    "domain" : "89",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "313"
+    "id" : "309"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasLabourCost",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "317",
+    "range" : "312",
     "label" : {
       "IRI-based" : "hasLabourCost"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "316"
+    "id" : "311"
   }, {
     "iri" : "https://w3id.org/oho-pro#consistOf",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -5022,29 +4978,29 @@
       "IRI-based" : "consistOf"
     },
     "domain" : "14",
-    "attributes" : [ "object", "transitive" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "93"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasOverheadCost",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "321",
+    "range" : "316",
     "label" : {
       "IRI-based" : "hasOverheadCost"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "320"
+    "id" : "315"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasOutput",
-    "inverse" : "323",
+    "inverse" : "318",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "91",
+    "range" : "90",
     "label" : {
       "IRI-based" : "hasOutput"
     },
     "domain" : "14",
     "attributes" : [ "object" ],
-    "id" : "322"
+    "id" : "317"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasFinishStation",
     "inverse" : "170",
@@ -5055,18 +5011,18 @@
     },
     "superproperty" : [ "127" ],
     "domain" : "14",
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "object", "functional" ],
     "id" : "130"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasDepreciationExpense",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "325",
+    "range" : "320",
     "label" : {
       "IRI-based" : "hasDepreciationExpense"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "324"
+    "id" : "319"
   }, {
     "iri" : "https://w3id.org/oho-pro#isOutputOf",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -5076,17 +5032,17 @@
     },
     "domain" : "14",
     "attributes" : [ "object" ],
-    "id" : "323"
+    "id" : "318"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasAllocationBase",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "327",
+    "range" : "322",
     "label" : {
       "IRI-based" : "hasAllocationBase"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "326"
+    "id" : "321"
   }, {
     "iri" : "https://w3id.org/oho-pro#isStartStationOf",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -5097,224 +5053,224 @@
     "superproperty" : [ "128" ],
     "domain" : "14",
     "attributes" : [ "object" ],
-    "id" : "260"
+    "id" : "257"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasActivityCost",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "329",
+    "range" : "324",
     "label" : {
       "IRI-based" : "hasActivityCost"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "330"
+    "id" : "325"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasActivityCostFromStart",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "328",
+    "range" : "323",
     "label" : {
       "IRI-based" : "hasActivityCostFromStart"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "331"
+    "id" : "327"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasCycleTime",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "333",
+    "range" : "329",
     "label" : {
       "IRI-based" : "hasCycleTime"
     },
     "domain" : "14",
-    "attributes" : [ "functional", "datatype" ],
-    "id" : "332"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "328"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasAllocationRate",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "318",
+    "range" : "313",
     "label" : {
       "IRI-based" : "hasAllocationRate"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "334"
+    "id" : "330"
   }, {
     "range" : "66",
     "domain" : "68",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "335"
+    "id" : "331"
   }, {
     "range" : "59",
     "domain" : "63",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "336"
+    "id" : "332"
   }, {
     "range" : "66",
     "domain" : "70",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "337"
+    "id" : "333"
   }, {
     "range" : "66",
     "domain" : "69",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "338"
+    "id" : "334"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasUnitOfProductionRate",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "315",
+    "range" : "310",
     "label" : {
       "IRI-based" : "hasUnitOfProductionRate"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "339"
+    "id" : "335"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasActivityCostAtFinish",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "319",
+    "range" : "314",
     "label" : {
       "IRI-based" : "hasActivityCostAtFinish"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "340"
+    "id" : "336"
   }, {
     "range" : "59",
     "domain" : "60",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "341"
+    "id" : "337"
   }, {
     "range" : "59",
     "domain" : "62",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "342"
+    "id" : "338"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasLabourCount",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "261",
+    "range" : "258",
     "label" : {
       "IRI-based" : "hasLabourCount"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "343"
+    "id" : "339"
   }, {
     "range" : "59",
     "domain" : "61",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "344"
+    "id" : "340"
   }, {
-    "range" : "219",
-    "domain" : "224",
+    "range" : "217",
+    "domain" : "222",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "345"
+    "id" : "341"
   }, {
-    "range" : "219",
-    "domain" : "280",
+    "range" : "217",
+    "domain" : "274",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "346"
+    "id" : "342"
   }, {
     "range" : "55",
     "domain" : "58",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "347"
+    "id" : "343"
   }, {
     "range" : "107",
     "domain" : "58",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "348"
+    "id" : "344"
   }, {
     "range" : "107",
     "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "349"
+    "id" : "345"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasAnnualSalary",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "351",
+    "range" : "347",
     "label" : {
       "IRI-based" : "hasAnnualSalary"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "350"
+    "id" : "346"
   }, {
     "range" : "76",
     "domain" : "72",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "352"
+    "id" : "348"
   }, {
-    "range" : "280",
-    "domain" : "224",
+    "range" : "274",
+    "domain" : "222",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "353"
+    "id" : "349"
   }, {
     "range" : "10",
     "domain" : "41",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "354"
+    "id" : "350"
   }, {
     "range" : "10",
     "domain" : "40",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "355"
+    "id" : "351"
   }, {
     "range" : "10",
     "domain" : "43",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "356"
+    "id" : "352"
   }, {
     "range" : "10",
     "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "357"
+    "id" : "353"
   }, {
     "range" : "10",
     "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "358"
+    "id" : "354"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasNextStation",
-    "inverse" : "207",
+    "inverse" : "205",
     "baseIri" : "https://w3id.org/oho-pro",
     "range" : "14",
     "label" : {
       "IRI-based" : "hasNextStation"
     },
-    "superproperty" : [ "236" ],
+    "superproperty" : [ "233" ],
     "domain" : "14",
-    "attributes" : [ "functional", "object" ],
-    "id" : "237"
+    "attributes" : [ "object", "functional" ],
+    "id" : "234"
   }, {
     "range" : "3",
     "domain" : "6",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "359"
+    "id" : "355"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasMaterialCount",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "361",
+    "range" : "357",
     "label" : {
       "IRI-based" : "hasMaterialCount"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "360"
+    "id" : "356"
   }, {
     "range" : "10",
     "domain" : "39",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "362"
+    "id" : "358"
   }, {
     "range" : "10",
     "domain" : "9",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "363"
+    "id" : "359"
   }, {
     "range" : "3",
     "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "364"
+    "id" : "360"
   }, {
     "iri" : "https://w3id.org/oho-pro#isSubActivityOf",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -5323,19 +5279,29 @@
       "IRI-based" : "isSubActivityOf"
     },
     "domain" : "14",
-    "subproperty" : [ "223", "252", "104" ],
-    "attributes" : [ "object", "transitive" ],
+    "subproperty" : [ "221", "252", "104" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "105"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasInspectionTime",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "265",
+    "range" : "262",
     "label" : {
       "IRI-based" : "hasInspectionTime"
     },
     "domain" : "14",
-    "attributes" : [ "functional", "datatype" ],
-    "id" : "365"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "361"
+  }, {
+    "iri" : "https://w3id.org/oho-pro#hasEconomicLife",
+    "baseIri" : "https://w3id.org/oho-pro",
+    "range" : "265",
+    "label" : {
+      "IRI-based" : "hasEconomicLife"
+    },
+    "domain" : "14",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "362"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasLongestActivity",
     "baseIri" : "https://w3id.org/oho-pro",
@@ -5343,39 +5309,29 @@
     "label" : {
       "IRI-based" : "hasLongestActivity"
     },
-    "superproperty" : [ "235" ],
+    "superproperty" : [ "232" ],
     "domain" : "14",
     "attributes" : [ "object" ],
-    "id" : "262"
-  }, {
-    "iri" : "https://w3id.org/oho-pro#hasEconomicLife",
-    "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "268",
-    "label" : {
-      "IRI-based" : "hasEconomicLife"
-    },
-    "domain" : "14",
-    "attributes" : [ "functional", "datatype" ],
-    "id" : "366"
+    "id" : "259"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasTotalCostAllocationBase",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "368",
+    "range" : "364",
     "label" : {
       "IRI-based" : "hasTotalCostAllocationBase"
     },
     "domain" : "14",
     "attributes" : [ "datatype" ],
-    "id" : "367"
+    "id" : "363"
   }, {
     "iri" : "https://w3id.org/oho-pro#hasLoadingTime",
     "baseIri" : "https://w3id.org/oho-pro",
-    "range" : "267",
+    "range" : "264",
     "label" : {
       "IRI-based" : "hasLoadingTime"
     },
     "domain" : "14",
-    "attributes" : [ "functional", "datatype" ],
-    "id" : "369"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "365"
   } ]
 }
