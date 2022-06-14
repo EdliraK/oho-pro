@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/oho-pro#"
      xml:base="https://w3id.org/oho-pro"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:oho="https://w3id.org/oho#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -12,6 +14,7 @@
      xmlns:oho-pro="https://w3id.org/oho-pro#">
     <owl:Ontology rdf:about="https://w3id.org/oho-pro#">
         <owl:versionIRI rdf:resource="https://w3id.org/oho-pro#"/>
+        <owl:imports rdf:resource="https://w3id.org/oho#/1.0.0"/>
     </owl:Ontology>
     
 
@@ -25,6 +28,34 @@
      -->
 
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
     
 
 
@@ -44,6 +75,63 @@
      -->
 
 
+    
+
+
+    <!-- https://w3id.org/oho#composedOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho#composedOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/oho#House"/>
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Product"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Component"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/oho#hasComponentPart -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho#hasComponentPart">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/oho#hasInterface -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho#hasInterface">
+        <owl:inverseOf rdf:resource="https://w3id.org/oho#isInterfaceOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/oho#House"/>
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Product"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Interface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/oho#isInterfaceOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho#isInterfaceOf">
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Interface"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Component"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/oho#producedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho#producedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Product"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho#Production"/>
+    </owl:ObjectProperty>
     
 
 
@@ -138,6 +226,16 @@
     
 
 
+    <!-- https://w3id.org/oho-pro#hasMethod -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho-pro#hasMethod">
+        <rdfs:domain rdf:resource="https://w3id.org/oho#Product"/>
+        <rdfs:range rdf:resource="https://w3id.org/oho-pro#Method"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/oho-pro#hasNextActivity -->
 
 
@@ -175,7 +273,6 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/oho-pro#hasOutput">
         <owl:inverseOf rdf:resource="https://w3id.org/oho-pro#isOutputOf"/>
-        <rdfs:range rdf:resource="https://w3id.org/oho-pro#Product"/>
     </owl:ObjectProperty>
     
 
@@ -331,6 +428,13 @@
     
 
 
+    <!-- https://w3id.org/oho-pro#isFinalStation -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho-pro#isFinalStation"/>
+    
+
+
     <!-- https://w3id.org/oho-pro#isFinishActivityOf -->
 
 
@@ -430,6 +534,13 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/oho-pro#isStartStationOf">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/oho-pro#isSubStationOf"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/oho-pro#isStartingStation -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oho-pro#isStartingStation"/>
     
 
 
@@ -883,10 +994,330 @@
     
 
 
+    <!-- https://w3id.org/oho#BathroomCabinet -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#BathroomCabinet">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Bathroom_Pod -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Bathroom_Pod">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Pod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Battery -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Battery">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Component -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Component">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Thing"/>
+        <dc:description>Manufactured individual building element
+including prefabricated elements e.g. precast
+staircases, refuse chutes, structural members
+such as columns, reinforcement cages etc.</dc:description>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Detached -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Detached">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#House"/>
+        <rdfs:comment>Type of house.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Door -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Door">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Duct -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Duct">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#ElectricityCable -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#ElectricityCable">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#HeatRecoveryUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#HeatRecoveryUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/oho#House -->
 
 
-    <owl:Class rdf:about="https://w3id.org/oho#House"/>
+    <owl:Class rdf:about="https://w3id.org/oho#House">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Interface -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Interface">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#KitchenCabinet -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#KitchenCabinet">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Kitchen_Pod -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Kitchen_Pod">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Pod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#LightSwitch -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#LightSwitch">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#LightingCable -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#LightingCable">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#PendantLight -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#PendantLight">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Pipe -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Pipe">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Pod -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Pod">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#PodFrame -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#PodFrame">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Product -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Product">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Production -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Production">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Radiator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Radiator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#RecessedLight -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#RecessedLight">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Roof -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Roof">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#SanitaryFitting -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#SanitaryFitting">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#SemiDetached -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#SemiDetached">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#House"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Socket -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Socket">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#SolarPanel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#SolarPanel">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Stair -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Stair">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Stair_Unit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Stair_Unit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Tape -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Tape">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Terrace -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Terrace">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#House"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#Thing -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Thing"/>
+    
+
+
+    <!-- https://w3id.org/oho#Volumetric_Room_Unit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#Volumetric_Room_Unit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#WallPanel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#WallPanel">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oho#WhiteGood -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho#WhiteGood">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:Class>
     
 
 
@@ -956,15 +1387,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Activity_Cost_Driver"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/oho-pro#Bathroom_Pod -->
-
-
-    <owl:Class rdf:about="https://w3id.org/oho-pro#Bathroom_Pod">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Product"/>
     </owl:Class>
     
 
@@ -1146,7 +1568,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/oho-pro#Floor_Panel">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Product"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho#Product"/>
     </owl:Class>
     
 
@@ -1244,15 +1666,6 @@
     
 
 
-    <!-- https://w3id.org/oho-pro#Kitchen_Pod -->
-
-
-    <owl:Class rdf:about="https://w3id.org/oho-pro#Kitchen_Pod">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Product"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/oho-pro#Labour -->
 
 
@@ -1345,7 +1758,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/oho-pro#Named_Station">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#WorkStation"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Station"/>
     </owl:Class>
     
 
@@ -1542,13 +1955,6 @@
     
 
 
-    <!-- https://w3id.org/oho-pro#Product -->
-
-
-    <owl:Class rdf:about="https://w3id.org/oho-pro#Product"/>
-    
-
-
     <!-- https://w3id.org/oho-pro#Product_Level_Driver -->
 
 
@@ -1609,15 +2015,6 @@
     
 
 
-    <!-- https://w3id.org/oho-pro#Roof -->
-
-
-    <owl:Class rdf:about="https://w3id.org/oho-pro#Roof">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Product"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/oho-pro#Sanitary_Component -->
 
 
@@ -1665,15 +2062,6 @@
     
 
 
-    <!-- https://w3id.org/oho-pro#Stair_Unit -->
-
-
-    <owl:Class rdf:about="https://w3id.org/oho-pro#Stair_Unit">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Product"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/oho-pro#StartSequence -->
 
 
@@ -1693,11 +2081,18 @@
     
 
 
+    <!-- https://w3id.org/oho-pro#Station -->
+
+
+    <owl:Class rdf:about="https://w3id.org/oho-pro#Station"/>
+    
+
+
     <!-- https://w3id.org/oho-pro#Station_Position -->
 
 
     <owl:Class rdf:about="https://w3id.org/oho-pro#Station_Position">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#WorkStation"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Station"/>
     </owl:Class>
     
 
@@ -1838,37 +2233,12 @@
     
 
 
-    <!-- https://w3id.org/oho-pro#Volumetric_Room_Unit -->
-
-
-    <owl:Class rdf:about="https://w3id.org/oho-pro#Volumetric_Room_Unit">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Product"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/oho-pro#Wall_Component -->
 
 
     <owl:Class rdf:about="https://w3id.org/oho-pro#Wall_Component">
         <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Material"/>
     </owl:Class>
-    
-
-
-    <!-- https://w3id.org/oho-pro#Wall_Panel -->
-
-
-    <owl:Class rdf:about="https://w3id.org/oho-pro#Wall_Panel">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/oho-pro#Product"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/oho-pro#WorkStation -->
-
-
-    <owl:Class rdf:about="https://w3id.org/oho-pro#WorkStation"/>
     
 
 
@@ -1890,6 +2260,2526 @@
      -->
 
 
+    
+
+
+    <!-- https://w3id.org/oho#A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#A"/>
+    
+
+
+    <!-- https://w3id.org/oho#Adhesive -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Adhesive"/>
+    
+
+
+    <!-- https://w3id.org/oho#Architect -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Architect"/>
+    
+
+
+    <!-- https://w3id.org/oho#AssignedFacilitiesAndUtilities150 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#AssignedFacilitiesAndUtilities150"/>
+    
+
+
+    <!-- https://w3id.org/oho#AssignedFacilitiesAndUtilities200 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#AssignedFacilitiesAndUtilities200"/>
+    
+
+
+    <!-- https://w3id.org/oho#AssignedFacilitiesAndUtilities50 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#AssignedFacilitiesAndUtilities50"/>
+    
+
+
+    <!-- https://w3id.org/oho#AssignedFacilitiesAndUtilities6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#AssignedFacilitiesAndUtilities6"/>
+    
+
+
+    <!-- https://w3id.org/oho#AssignedFacilitiesAndUtilities80 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#AssignedFacilitiesAndUtilities80"/>
+    
+
+
+    <!-- https://w3id.org/oho#Band -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Band">
+        <rdf:type rdf:resource="https://w3id.org/oho#Interface"/>
+        <oho:isInterfaceOf rdf:resource="https://w3id.org/oho#Wall-1"/>
+        <oho:isInterfaceOf rdf:resource="https://w3id.org/oho#Window-1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Basin -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Basin">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#BathroomCabinets -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BathroomCabinets">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Bathtub -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Bathtub">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#BatterySystem -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BatterySystem">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Bolts-A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Bolts-A">
+        <rdfs:isDefinedBy>BIM Model Extraction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Bolts-B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Bolts-B">
+        <rdfs:isDefinedBy>BIM Model Extraction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#BondEPDM -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BondEPDM"/>
+    
+
+
+    <!-- https://w3id.org/oho#BreatherMembrane -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BreatherMembrane"/>
+    
+
+
+    <!-- https://w3id.org/oho#BrickSlips -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BrickSlips">
+        <rdfs:isDefinedBy>BIM Model</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#BronzeInUse -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BronzeInUse"/>
+    
+
+
+    <!-- https://w3id.org/oho#BussinesOperation150 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BussinesOperation150"/>
+    
+
+
+    <!-- https://w3id.org/oho#BussinesOperation200 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BussinesOperation200"/>
+    
+
+
+    <!-- https://w3id.org/oho#BussinesOperation50 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BussinesOperation50"/>
+    
+
+
+    <!-- https://w3id.org/oho#BussinesOperation6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BussinesOperation6"/>
+    
+
+
+    <!-- https://w3id.org/oho#BussinesOperation80 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#BussinesOperation80"/>
+    
+
+
+    <!-- https://w3id.org/oho#CL_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CL_1">
+        <rdfs:comment>Casual Labour with unique  ID number 1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#CL_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CL_2">
+        <rdfs:comment>Casual Labour with unique  ID number 2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#CL_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CL_3">
+        <rdfs:comment>Casual Labour with unique  ID number 3</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#CL_4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CL_4">
+        <rdfs:comment>Casual Labour with unique  ID number 4</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#CL_5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CL_5">
+        <rdfs:comment>Casual Labour with unique  ID number 5</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#CL_6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CL_6">
+        <rdfs:comment>Casual Labour with unique  ID number 6</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#CO2Detector -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CO2Detector">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#CPBoardScrewStation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CPBoardScrewStation">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#CandiwallBackingBoard -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CandiwallBackingBoard"/>
+    
+
+
+    <!-- https://w3id.org/oho#Carpenter -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Carpenter">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#CementBoard -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CementBoard"/>
+    
+
+
+    <!-- https://w3id.org/oho#CentralPodsAndPanelsProject -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CentralPodsAndPanelsProject">
+        <rdfs:comment>Central Pods and Panels (Semi-automated line production for panels and manual assembled pods)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#CheckAlignment -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#CheckAlignment"/>
+    
+
+
+    <!-- https://w3id.org/oho#Clips -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Clips"/>
+    
+
+
+    <!-- https://w3id.org/oho#Customer_Relation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Customer_Relation"/>
+    
+
+
+    <!-- https://w3id.org/oho#DataCable -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DataCable">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#DesignAndEngineering150 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DesignAndEngineering150"/>
+    
+
+
+    <!-- https://w3id.org/oho#DesignAndEngineering200 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DesignAndEngineering200"/>
+    
+
+
+    <!-- https://w3id.org/oho#DesignAndEngineering50 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DesignAndEngineering50"/>
+    
+
+
+    <!-- https://w3id.org/oho#DesignAndEngineering6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DesignAndEngineering6"/>
+    
+
+
+    <!-- https://w3id.org/oho#DesignAndEngineering80 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DesignAndEngineering80"/>
+    
+
+
+    <!-- https://w3id.org/oho#Design_and_Engineering -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Design_and_Engineering"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredLabour50 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredLabour50"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredLabourCentralPod -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredLabourCentralPod"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredLabourPanelised150 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredLabourPanelised150"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredLabourPanelised200 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredLabourPanelised200"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredLabourPanelised50 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredLabourPanelised50"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredLabourPanelised6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredLabourPanelised6"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredLabourPanelised80 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredLabourPanelised80"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredLabourVolumatric80 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredLabourVolumatric80"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredMaterialCentralPod -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredMaterialCentralPod"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredMaterialPanelised -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredMaterialPanelised"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredMaterialStick -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredMaterialStick"/>
+    
+
+
+    <!-- https://w3id.org/oho#DirectlyProcuredMaterialVolumetric -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DirectlyProcuredMaterialVolumetric"/>
+    
+
+
+    <!-- https://w3id.org/oho#DrainagePipe -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#DrainagePipe">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#E_Consult -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#E_Consult"/>
+    
+
+
+    <!-- https://w3id.org/oho#ElectricalInstallationType -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ElectricalInstallationType">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Electrician -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Electrician">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#ElectricityCable -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ElectricityCable"/>
+    
+
+
+    <!-- https://w3id.org/oho#EnergyAndFaultMonitoringRequired -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#EnergyAndFaultMonitoringRequired">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#EntranceDoor -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#EntranceDoor">
+        <rdfs:isDefinedBy>BIM Model</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#FixWindowAndDoorPods -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#FixWindowAndDoorPods"/>
+    
+
+
+    <!-- https://w3id.org/oho#FlatRoofWithSinglePlyMembrane -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#FlatRoofWithSinglePlyMembrane"/>
+    
+
+
+    <!-- https://w3id.org/oho#Fork_Lift -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Fork_Lift"/>
+    
+
+
+    <!-- https://w3id.org/oho#FrameAndMaterialLoadingAndUnloading -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#FrameAndMaterialLoadingAndUnloading">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Gold -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Gold"/>
+    
+
+
+    <!-- https://w3id.org/oho#GoldInUse -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#GoldInUse"/>
+    
+
+
+    <!-- https://w3id.org/oho#Guard -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Guard"/>
+    
+
+
+    <!-- https://w3id.org/oho#HatChannelsAndSupportRails -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#HatChannelsAndSupportRails">
+        <rdfs:isDefinedBy>BIM Model</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#HeatDetector -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#HeatDetector">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#HotAndColdWaterPipe -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#HotAndColdWaterPipe">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#HotWaterCylinderType -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#HotWaterCylinderType">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#House-A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#House-A">
+        <oho:composedOf rdf:resource="https://w3id.org/oho#LSF_3BED_01_LHS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#InspectionStation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#InspectionStation">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#InstallBreatherMembrane -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#InstallBreatherMembrane"/>
+    
+
+
+    <!-- https://w3id.org/oho#InstallCavityInsulation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#InstallCavityInsulation"/>
+    
+
+
+    <!-- https://w3id.org/oho#InstallCladdingSub-frame -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#InstallCladdingSub-frame"/>
+    
+
+
+    <!-- https://w3id.org/oho#InstallWindowAndDoor -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#InstallWindowAndDoor"/>
+    
+
+
+    <!-- https://w3id.org/oho#InsulationBoard -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#InsulationBoard"/>
+    
+
+
+    <!-- https://w3id.org/oho#InsulationToExternalWall -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#InsulationToExternalWall">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#JointTapeToCementBoard -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#JointTapeToCementBoard">
+        <rdfs:isDefinedBy>BIM Model</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#JointTapeToInternalWalls -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#JointTapeToInternalWalls">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#KicthenMixer -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#KicthenMixer">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#KitchenCabinets -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#KitchenCabinets">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#KitchenSink -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#KitchenSink">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_01_LHS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_01_LHS">
+        <rdf:type rdf:resource="https://w3id.org/oho#Product"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <oho:composedOf rdf:resource="https://w3id.org/oho#mmHT"/>
+        <oho:hasComponentPart rdf:resource="https://w3id.org/oho#mmBT"/>
+        <oho:hasComponentPart rdf:resource="https://w3id.org/oho#mmCS"/>
+        <oho:hasComponentPart rdf:resource="https://w3id.org/oho#mmFS"/>
+        <oho:hasComponentPart rdf:resource="https://w3id.org/oho#mmHT"/>
+        <oho:hasComponentPart rdf:resource="https://w3id.org/oho#mmS"/>
+        <oho:hasComponentPart rdf:resource="https://w3id.org/oho#mmSS"/>
+        <oho:hasComponentPart rdf:resource="https://w3id.org/oho#mmStud"/>
+        <rdfs:comment>LSF 3BED 01 LHS - This is a Lower Front Light Steel Frame (LSF) panel positioned at the bottom left hand side (LHS) when looking from the entrance of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_01_RHS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_01_RHS">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF 3BED 01 RHS - This is a Lower Front Light Steel Frame (LSF) panel positioned at the bottom right hand side (RHS) when looking from the entrance of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_02_LHS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_02_LHS">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF 3BED 02 LHS - This is a Upper Front Light Steel Frame (LSF) panel positioned at the top left hand side (LHS) when looking from the entrance of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_02_RHS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_02_RHS">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF 3BED 02 RHS - This is a Upper Front Light Steel Frame (LSF) panel positioned at the top right hand side (RHS) when looking from the entrance of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_03_LHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_03_LHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF-3BED-03-LHS-F :- This is a Light Steel Frame (LSF) panel positioned at the bottom front on the left hand side (LHS) when looking from the front of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_03_LHS_R -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_03_LHS_R">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF-3BED-03-LHS-R:- This is a Light Steel Frame (LSF) panel positioned at the bottom rear left hand side (LHS) when looking from the rear of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_03_RHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_03_RHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF-3BED-03-RHS-F :- This is a Light Steel Frame (LSF) panel positioned at the bottom front on the right hand side (RHS) when looking from the front of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_03_RHS_R -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_03_RHS_R">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF-3BED-03-RHS-R:- This is a Light Steel Frame (LSF) panel positioned at the bottom rear right hand side (RHS) when looking from the rear of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_04_LHS_B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_04_LHS_B">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_04_LHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_04_LHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_04_RHS_B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_04_RHS_B">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_04_RHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_04_RHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_05_LHS_B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_05_LHS_B">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_05_LHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_05_LHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_05_RHS_B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_05_RHS_B">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_05_RHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_05_RHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_06_LHS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_06_LHS">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF 3BED 06 LHS - This is a Lower Front Light Steel Frame (LSF) panel positioned at the bottom left hand side (LHS) when looking from the rear of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_06_RHS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_06_RHS">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF 3BED 06 RHS - This is a Lower Front Light Steel Frame (LSF) panel positioned at the bottom right hand side (RHS) when looking from the rear of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_07_LHS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_07_LHS">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF 3BED 07 LHS - This is a Upper Front Light Steel Frame (LSF) panel positioned at the top left hand side (LHS) when looking from the rear of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_07_RHS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_07_RHS">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF 3BED 07 RHS - This is a Upper Front Light Steel Frame (LSF) panel positioned at the top right hand side (RHS) when looking from the back of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_08_LHS_B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_08_LHS_B">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_08_LHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_08_LHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+        <rdfs:comment>LSF 3BED 08 LHS F - This is a Party Wall Light Steel Frame (LSF) positioned at the bottom from left hand side (LHS) when looking from the entrance of the 3 bedroom house.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_08_RHS_B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_08_RHS_B">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_08_RHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_08_RHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_09_LHS_B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_09_LHS_B">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_09_LHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_09_LHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_09_RHS_B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_09_RHS_B">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_09_RHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_09_RHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_10_LHS_B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_10_LHS_B">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_10_LHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_10_LHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_10_RHS_B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_10_RHS_B">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LSF_3BED_10_RHS_F -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LSF_3BED_10_RHS_F">
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LampsToBeSupplied -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LampsToBeSupplied">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LightSwitches -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LightSwitches">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#LightingCable -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LightingCable"/>
+    
+
+
+    <!-- https://w3id.org/oho#LoadCPBoardOnFrame -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LoadCPBoardOnFrame"/>
+    
+
+
+    <!-- https://w3id.org/oho#LoadFinishedPanelsToTransportTrolley -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LoadFinishedPanelsToTransportTrolley"/>
+    
+
+
+    <!-- https://w3id.org/oho#LoadToStorageArea -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LoadToStorageArea"/>
+    
+
+
+    <!-- https://w3id.org/oho#LoadingAndUnloading -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#LoadingAndUnloading"/>
+    
+
+
+    <!-- https://w3id.org/oho#MCProfitCentralPod -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#MCProfitCentralPod"/>
+    
+
+
+    <!-- https://w3id.org/oho#MCProfitPanelised -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#MCProfitPanelised"/>
+    
+
+
+    <!-- https://w3id.org/oho#MCProfitStick -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#MCProfitStick"/>
+    
+
+
+    <!-- https://w3id.org/oho#MVHR -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#MVHR">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Maintenance_and_Service -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Maintenance_and_Service"/>
+    
+
+
+    <!-- https://w3id.org/oho#ManualInstallation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ManualInstallation">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#ManualReworkAndCPBoardLoadStation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ManualReworkAndCPBoardLoadStation">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#ManualReworkStation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ManualReworkStation">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#MaterialDelivery -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#MaterialDelivery"/>
+    
+
+
+    <!-- https://w3id.org/oho#MeasuringAndCuttingCPBoard -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#MeasuringAndCuttingCPBoard"/>
+    
+
+
+    <!-- https://w3id.org/oho#Method-B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Method-B"/>
+    
+
+
+    <!-- https://w3id.org/oho#MethodA -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#MethodA"/>
+    
+
+
+    <!-- https://w3id.org/oho#Modular_Production -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Modular_Production"/>
+    
+
+
+    <!-- https://w3id.org/oho#NutAndBoltFrame -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#NutAndBoltFrame"/>
+    
+
+
+    <!-- https://w3id.org/oho#OnsiteAssemblyRenderingCentralPod -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#OnsiteAssemblyRenderingCentralPod"/>
+    
+
+
+    <!-- https://w3id.org/oho#OnsiteAssemblyRenderingPanelised -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#OnsiteAssemblyRenderingPanelised"/>
+    
+
+
+    <!-- https://w3id.org/oho#OnsiteAssemblyRenderingStick -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#OnsiteAssemblyRenderingStick"/>
+    
+
+
+    <!-- https://w3id.org/oho#OnsiteAssemblyRenderingVolumatric -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#OnsiteAssemblyRenderingVolumatric"/>
+    
+
+
+    <!-- https://w3id.org/oho#OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick"/>
+    
+
+
+    <!-- https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSlipCentralPod -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSlipCentralPod"/>
+    
+
+
+    <!-- https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSlipPanelised -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSlipPanelised"/>
+    
+
+
+    <!-- https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSplipVolumatric -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#OnsiteAssemblyWeatherboardORBrickSplipVolumatric"/>
+    
+
+
+    <!-- https://w3id.org/oho#OnsiteSubstructureAndExternalWall -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#OnsiteSubstructureAndExternalWall"/>
+    
+
+
+    <!-- https://w3id.org/oho#Onsite_Support -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Onsite_Support"/>
+    
+
+
+    <!-- https://w3id.org/oho#Onsite_Work -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Onsite_Work"/>
+    
+
+
+    <!-- https://w3id.org/oho#Operational -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Operational"/>
+    
+
+
+    <!-- https://w3id.org/oho#PG_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PG_1">
+        <rdfs:comment>Programmer with ID number 1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#PG_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PG_2"/>
+    
+
+
+    <!-- https://w3id.org/oho#PackagingAndProtection -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PackagingAndProtection"/>
+    
+
+
+    <!-- https://w3id.org/oho#PanelCladdingsub-assembly -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PanelCladdingsub-assembly"/>
+    
+
+
+    <!-- https://w3id.org/oho#PanelFramesub-assembly -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PanelFramesub-assembly"/>
+    
+
+
+    <!-- https://w3id.org/oho#PanelHeaters -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PanelHeaters">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#PanelTurnoverAndToolingReturnStation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PanelTurnoverAndToolingReturnStation">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Panel_Testing -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Panel_Testing"/>
+    
+
+
+    <!-- https://w3id.org/oho#Panelised -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Panelised"/>
+    
+
+
+    <!-- https://w3id.org/oho#PanelisedProject -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PanelisedProject"/>
+    
+
+
+    <!-- https://w3id.org/oho#PendantLights -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PendantLights">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#PitchedRoofWithClayTileCovering -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PitchedRoofWithClayTileCovering"/>
+    
+
+
+    <!-- https://w3id.org/oho#PitchedRoofWithPlasticTileCovering -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PitchedRoofWithPlasticTileCovering"/>
+    
+
+
+    <!-- https://w3id.org/oho#PitchedRoofWithSlateTileCovering -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PitchedRoofWithSlateTileCovering"/>
+    
+
+
+    <!-- https://w3id.org/oho#Planning_and_Scheduling -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Planning_and_Scheduling"/>
+    
+
+
+    <!-- https://w3id.org/oho#PlantAndEquipment -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PlantAndEquipment"/>
+    
+
+
+    <!-- https://w3id.org/oho#PlantAndEquipmentCentralPod -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PlantAndEquipmentCentralPod"/>
+    
+
+
+    <!-- https://w3id.org/oho#PlantAndEquipmentVolumetric -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PlantAndEquipmentVolumetric"/>
+    
+
+
+    <!-- https://w3id.org/oho#Plant_and_Equipment -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Plant_and_Equipment"/>
+    
+
+
+    <!-- https://w3id.org/oho#Plasterboard -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Plasterboard"/>
+    
+
+
+    <!-- https://w3id.org/oho#Platform -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Platform"/>
+    
+
+
+    <!-- https://w3id.org/oho#Plumber -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Plumber">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#PodFramesub-assembly -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PodFramesub-assembly"/>
+    
+
+
+    <!-- https://w3id.org/oho#PodLoadingAndUnloading -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#PodLoadingAndUnloading">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Pod_Testing -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Pod_Testing"/>
+    
+
+
+    <!-- https://w3id.org/oho#Podsub-assembly -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Podsub-assembly"/>
+    
+
+
+    <!-- https://w3id.org/oho#ProcessCoordination -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ProcessCoordination"/>
+    
+
+
+    <!-- https://w3id.org/oho#Procurement_and_Inventory_Control -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Procurement_and_Inventory_Control"/>
+    
+
+
+    <!-- https://w3id.org/oho#Product-A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Product-A">
+        <rdf:type rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Production_Engineering_Management_and_Support -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Production_Engineering_Management_and_Support"/>
+    
+
+
+    <!-- https://w3id.org/oho#QI_101 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#QI_101">
+        <rdfs:comment>Quality Inspector with unique  ID number 101</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#QI_102 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#QI_102">
+        <rdfs:comment>Quality Inspector with unique  ID number 102</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#QualityInspection -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#QualityInspection"/>
+    
+
+
+    <!-- https://w3id.org/oho#QualityInspectionAndSignOff -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#QualityInspectionAndSignOff"/>
+    
+
+
+    <!-- https://w3id.org/oho#QualityInspectionOnFixings -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#QualityInspectionOnFixings"/>
+    
+
+
+    <!-- https://w3id.org/oho#RecessedLights -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#RecessedLights">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Repair_and_Replacement -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Repair_and_Replacement"/>
+    
+
+
+    <!-- https://w3id.org/oho#ResourceAllocation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ResourceAllocation"/>
+    
+
+
+    <!-- https://w3id.org/oho#Rework -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Rework"/>
+    
+
+
+    <!-- https://w3id.org/oho#ReworkOnBonding -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ReworkOnBonding"/>
+    
+
+
+    <!-- https://w3id.org/oho#ReworkOnDefectOrScrap -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ReworkOnDefectOrScrap"/>
+    
+
+
+    <!-- https://w3id.org/oho#ReworkOnFailedJoints -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ReworkOnFailedJoints"/>
+    
+
+
+    <!-- https://w3id.org/oho#ReworkOnFrames -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ReworkOnFrames"/>
+    
+
+
+    <!-- https://w3id.org/oho#SSO_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SSO_1">
+        <rdfs:comment>Semi Skilled Operative with ID number 1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SSO_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SSO_2">
+        <rdfs:comment>Semi Skilled Operative with unique  ID number 2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SSO_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SSO_3">
+        <rdfs:comment>Semi Skilled Operative with unique  ID number 3</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SSO_4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SSO_4">
+        <rdfs:comment>Semi Skilled Operative with unique  ID number 4</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SSO_5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SSO_5">
+        <rdfs:comment>Semi Skilled Operative with unique  ID number 5</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SSO_6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SSO_6">
+        <rdfs:comment>Semi Skilled Operative with unique  ID number 6</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SSO_7 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SSO_7">
+        <rdfs:comment>Semi Skilled Operative with unique  ID number 7</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SSO_8 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SSO_8">
+        <rdfs:comment>Semi Skilled Operative with unique  ID number 8</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SSO_9 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SSO_9">
+        <rdfs:comment>Semi Skilled Operative with unique  ID number 9</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#ScrewBoardToFrame -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ScrewBoardToFrame"/>
+    
+
+
+    <!-- https://w3id.org/oho#ScrewBracketForPod -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ScrewBracketForPod"/>
+    
+
+
+    <!-- https://w3id.org/oho#SedumGreenRoof -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SedumGreenRoof"/>
+    
+
+
+    <!-- https://w3id.org/oho#ShowerScreen -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ShowerScreen">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#ShowerThermostaticMixer -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ShowerThermostaticMixer">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SilverInUse -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SilverInUse"/>
+    
+
+
+    <!-- https://w3id.org/oho#SmokeDetector -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SmokeDetector">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Sockets -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Sockets">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SolarPV -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SolarPV">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#SortingSteelSections -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#SortingSteelSections"/>
+    
+
+
+    <!-- https://w3id.org/oho#StairsAndBalustrades -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#StairsAndBalustrades">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#StationA -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#StationA"/>
+    
+
+
+    <!-- https://w3id.org/oho#Stick -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Stick"/>
+    
+
+
+    <!-- https://w3id.org/oho#StickProject -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#StickProject"/>
+    
+
+
+    <!-- https://w3id.org/oho#Storage -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Storage"/>
+    
+
+
+    <!-- https://w3id.org/oho#Structural_Engineer -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Structural_Engineer"/>
+    
+
+
+    <!-- https://w3id.org/oho#T10_Frame_transfer -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T10_Frame_transfer">
+        <rdfs:comment>T10: Frame transfer to CP Board load station</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T11_Load_and_Place_CPB -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T11_Load_and_Place_CPB">
+        <rdfs:comment>Task 11: Operator  load CP board to cladding area and place the CP board onto the frame using manual tooling to align it correctly</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T12_Offload -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T12_Offload">
+        <rdfs:comment>Task 12: Place internal frames not requiring finishing onto transport trolley</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T12_Transfer_to_Mech_Fixing -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T12_Transfer_to_Mech_Fixing">
+        <rdfs:comment>Task 12: Frame transfers into the mechanical fixing station</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T13_CPBoard_Fixing -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T13_CPBoard_Fixing">
+        <rdfs:comment>Task 13: CP board is mechanically fixed onto frame</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T13_Return_Conveyor -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T13_Return_Conveyor">
+        <rdfs:comment>Task 13: Tooling return conveyor</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T14_Transfer_Panels_to_Manual_Station -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T14_Transfer_Panels_to_Manual_Station"/>
+    
+
+
+    <!-- https://w3id.org/oho#T15_Cut_Wall_Opening -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T15_Cut_Wall_Opening">
+        <rdfs:comment>T15: Cut door and window openings in panels</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T16_Fix_Pods -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T16_Fix_Pods">
+        <rdfs:comment>T16: Fix door and window pods to the openings in the panels</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T17_Bond_EPDM -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T17_Bond_EPDM">
+        <rdfs:comment>T17: Bond EPDM to the openings</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T18_Install_Breather_Membrane -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T18_Install_Breather_Membrane"/>
+    
+
+
+    <!-- https://w3id.org/oho#T19_Fix_SubFrame -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T19_Fix_SubFrame"/>
+    
+
+
+    <!-- https://w3id.org/oho#T1_Deliver_Pallets -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T1_Deliver_Pallets">
+        <rdfs:comment>Task 1 - Deliver Pallets to loading area</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T20_Install_CandiWall_System -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T20_Install_CandiWall_System"/>
+    
+
+
+    <!-- https://w3id.org/oho#T21_Install_Brick_Cladding -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T21_Install_Brick_Cladding"/>
+    
+
+
+    <!-- https://w3id.org/oho#T22_Install_Window_and_Door -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T22_Install_Window_and_Door"/>
+    
+
+
+    <!-- https://w3id.org/oho#T23_Transfer_to_InternalFitOut -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T23_Transfer_to_InternalFitOut"/>
+    
+
+
+    <!-- https://w3id.org/oho#T24_First_Fix_Electrics -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T24_First_Fix_Electrics"/>
+    
+
+
+    <!-- https://w3id.org/oho#T25_First_Fix_Mechanical -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T25_First_Fix_Mechanical"/>
+    
+
+
+    <!-- https://w3id.org/oho#T26_Install_Insulation_btw_Studs -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T26_Install_Insulation_btw_Studs"/>
+    
+
+
+    <!-- https://w3id.org/oho#T27_Install_Vapour_Control -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T27_Install_Vapour_Control"/>
+    
+
+
+    <!-- https://w3id.org/oho#T28_Fix_Plaster_Board -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T28_Fix_Plaster_Board"/>
+    
+
+
+    <!-- https://w3id.org/oho#T29_Fix_Skirting -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T29_Fix_Skirting"/>
+    
+
+
+    <!-- https://w3id.org/oho#T2_Select_and_Load_Beam -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T2_Select_and_Load_Beam"/>
+    
+
+
+    <!-- https://w3id.org/oho#T30_Checking_and_Transfer -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T30_Checking_and_Transfer">
+        <rdfs:comment>Task 30: Panel is checked by operative before being transferred to adhesive station</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T30_Fix_Architrave -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T30_Fix_Architrave"/>
+    
+
+
+    <!-- https://w3id.org/oho#T31_Feed_Adhesive -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T31_Feed_Adhesive">
+        <rdfs:comment>Task 31: Feed adhesive from a twin barrel dispense system with automatic changeover</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T32_Dispense_Adhesive -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T32_Dispense_Adhesive">
+        <rdfs:comment>Task 32: Dispense adhesive onto Wonderwall board</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T33_Transfer_Frame -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T33_Transfer_Frame">
+        <rdfs:comment>Task 33: Automatic transfer of frame onto a servo transfer shuttle</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T34_Feeding_Briquettes -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T34_Feeding_Briquettes">
+        <rdfs:comment>Task 34: Feed Briquettes into the cell in a pattern of 5X5</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T35_Place_Briquettes -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T35_Place_Briquettes">
+        <rdfs:comment>Task 35: Robot places Briquettes directly to the Wonderwall Board</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T3_Clamp_Beam -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T3_Clamp_Beam">
+        <rdfs:comment>Task 3: Hold beam in place with clamps</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T4_Transfer_Beam -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T4_Transfer_Beam">
+        <rdfs:comment>Task 4: Automatic transfer of beam to riveting station</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T5_Rivet_Joints -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T5_Rivet_Joints">
+        <rdfs:comment>Task 5: Riveting top and bottom joints</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T6_Move_Frame_to_Lift -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T6_Move_Frame_to_Lift">
+        <rdfs:comment>Task 6: Tooling moves the frame to a lift unit</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T7_Lift_Frame -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T7_Lift_Frame">
+        <rdfs:comment>Task 7: Automatically lift riveted frame off tooling</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T8_Rework_on_failed_joints -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T8_Rework_on_failed_joints">
+        <rdfs:comment>Task 8: Re-work on failed joints</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#T9_Transfer_Frame -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#T9_Transfer_Frame">
+        <rdfs:comment>Task 9: Transfer frame to cladding line</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#TEKScrewStation1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#TEKScrewStation1">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#TEKScrewStation2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#TEKScrewStation2">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Taps -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Taps">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#TeamBriefing -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#TeamBriefing"/>
+    
+
+
+    <!-- https://w3id.org/oho#TelephoneAndTVDistribution -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#TelephoneAndTVDistribution">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Timber -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Timber"/>
+    
+
+
+    <!-- https://w3id.org/oho#TimberStuds -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#TimberStuds">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#ToolingSetUpStation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ToolingSetUpStation">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#TransportationOP -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#TransportationOP"/>
+    
+
+
+    <!-- https://w3id.org/oho#TransportationPanelised -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#TransportationPanelised"/>
+    
+
+
+    <!-- https://w3id.org/oho#TransportationStick -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#TransportationStick"/>
+    
+
+
+    <!-- https://w3id.org/oho#Trolley -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Trolley"/>
+    
+
+
+    <!-- https://w3id.org/oho#Truck-A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Truck-A"/>
+    
+
+
+    <!-- https://w3id.org/oho#Type1_House -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Type1_House">
+        <rdfs:comment>Type 1  House: Semi-detached; Pod frame + Infilled panel; automated factory production; a particular location and particular selection of roof and building service system choices)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#UPVC -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#UPVC"/>
+    
+
+
+    <!-- https://w3id.org/oho#UnloadStation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#UnloadStation">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#VisualInspectionOnBonding -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#VisualInspectionOnBonding"/>
+    
+
+
+    <!-- https://w3id.org/oho#VisualInspectionOnsub-frameFixing -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#VisualInspectionOnsub-frameFixing"/>
+    
+
+
+    <!-- https://w3id.org/oho#VolumetricProject -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#VolumetricProject">
+        <rdfs:comment>Volumetric (All Pods) (Semi-automated line production for panels and manual assembled pods)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Wall-1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Wall-1">
+        <rdf:type rdf:resource="https://w3id.org/oho#Product"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#WaterCistern -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#WaterCistern">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#Window-1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Window-1">
+        <rdf:type rdf:resource="https://w3id.org/oho#Component"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#WindowAndFrenchDoor -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#WindowAndFrenchDoor">
+        <rdfs:isDefinedBy>BIM Model</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#WithBricklSlip -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#WithBricklSlip"/>
+    
+
+
+    <!-- https://w3id.org/oho#WithRendering -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#WithRendering"/>
+    
+
+
+    <!-- https://w3id.org/oho#WithWeatherboard -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#WithWeatherboard"/>
+    
+
+
+    <!-- https://w3id.org/oho#brick-slipSystem -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#brick-slipSystem"/>
+    
+
+
+    <!-- https://w3id.org/oho#designcosttest -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#designcosttest"/>
+    
+
+
+    <!-- https://w3id.org/oho#mmBT -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#mmBT"/>
+    
+
+
+    <!-- https://w3id.org/oho#mmCS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#mmCS"/>
+    
+
+
+    <!-- https://w3id.org/oho#mmFS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#mmFS"/>
+    
+
+
+    <!-- https://w3id.org/oho#mmHT -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#mmHT"/>
+    
+
+
+    <!-- https://w3id.org/oho#mmS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#mmS"/>
+    
+
+
+    <!-- https://w3id.org/oho#mmSS -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#mmSS"/>
+    
+
+
+    <!-- https://w3id.org/oho#mmStud -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#mmStud"/>
+    
+
+
+    <!-- https://w3id.org/oho#test -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#test">
+        <rdf:type rdf:resource="https://w3id.org/oho#Interface"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#test1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#test1">
+        <rdf:type rdf:resource="https://w3id.org/oho#House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#test3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#test3"/>
+    
+
+
+    <!-- https://w3id.org/oho#type-1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#type-1"/>
+    
+
+
+    <!-- https://w3id.org/oho#type-2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#type-2"/>
+    
+
+
+    <!-- https://w3id.org/oho#type-3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#type-3"/>
+    
+
+
+    <!-- https://w3id.org/oho#xProjectCostEstimation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#xProjectCostEstimation"/>
+    
+
+
+    <!-- https://w3id.org/oho#1-20 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#1-20"/>
+    
+
+
+    <!-- https://w3id.org/oho#1.24InstallCandyWallSystem(backingboard) -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#1.24InstallCandyWallSystem(backingboard)"/>
+    
+
+
+    <!-- https://w3id.org/oho#100-200 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#100-200"/>
+    
+
+
+    <!-- https://w3id.org/oho#150 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#150"/>
+    
+
+
+    <!-- https://w3id.org/oho#200 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#200"/>
+    
+
+
+    <!-- https://w3id.org/oho#21-100 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#21-100"/>
+    
+
+
+    <!-- https://w3id.org/oho#Bolts(TypeA) -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Bolts(TypeA)"/>
+    
+
+
+    <!-- https://w3id.org/oho#Bolts(TypeB) -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Bolts(TypeB)"/>
+    
+
+
+    <!-- https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA) -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA)">
+        <rdfs:isDefinedBy>BIM Model Extraction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB) -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB)">
+        <rdfs:isDefinedBy>BIM Model Extraction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC) -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC)">
+        <rdfs:isDefinedBy>BIM Model Extraction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA) -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA)"/>
+    
+
+
+    <!-- https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB) -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB)"/>
+    
+
+
+    <!-- https://w3id.org/oho#Rework/bufferStation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/oho#Rework/bufferStation">
+        <rdfs:isDefinedBy>Productivity datasheet</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
     
 
 
@@ -4152,7 +7042,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/oho-pro#3BED_FF_FRONT_LSF_02">
-        <rdf:type rdf:resource="https://w3id.org/oho-pro#Wall_Panel"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
         <hasCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasCount>
         <rdfs:comment>First Floor Front Panles LHS and RHS</rdfs:comment>
     </owl:NamedIndividual>
@@ -4163,7 +7053,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/oho-pro#3BED_FF_GABLE_LSF_04">
-        <rdf:type rdf:resource="https://w3id.org/oho-pro#Wall_Panel"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
         <hasCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasCount>
         <rdfs:comment>First Floor LHS and RHS Gable Panles</rdfs:comment>
     </owl:NamedIndividual>
@@ -4174,7 +7064,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/oho-pro#3BED_FF_PARTYWALL_LSF_09">
-        <rdf:type rdf:resource="https://w3id.org/oho-pro#Wall_Panel"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
         <hasCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasCount>
         <rdfs:comment>First Floor Party Wall LHS and RHS</rdfs:comment>
     </owl:NamedIndividual>
@@ -4185,7 +7075,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/oho-pro#3BED_FF_RARE_LSF_07">
-        <rdf:type rdf:resource="https://w3id.org/oho-pro#Wall_Panel"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
         <hasCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasCount>
         <rdfs:comment>First Floor Rare Panles LHS and RHS</rdfs:comment>
     </owl:NamedIndividual>
@@ -4196,7 +7086,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/oho-pro#3BED_GF_FRONT_LSF_01">
-        <rdf:type rdf:resource="https://w3id.org/oho-pro#Wall_Panel"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
         <consume rdf:resource="https://w3id.org/oho-pro#A5.30_Start_PMS_System"/>
         <consume rdf:resource="https://w3id.org/oho-pro#A5.31_Load_BIM_Model"/>
         <consume rdf:resource="https://w3id.org/oho-pro#A5.32_Run_and_Monitor_Process"/>
@@ -4252,7 +7142,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/oho-pro#3BED_GF_GABLE_LSF_03">
-        <rdf:type rdf:resource="https://w3id.org/oho-pro#Wall_Panel"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
         <hasCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasCount>
         <rdfs:comment>Ground Floor LHS and RHS Gable Panles</rdfs:comment>
     </owl:NamedIndividual>
@@ -4263,7 +7153,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/oho-pro#3BED_GF_PARTYWALL_LSF_08">
-        <rdf:type rdf:resource="https://w3id.org/oho-pro#Wall_Panel"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
         <hasCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasCount>
         <rdfs:comment>Ground Floor Party Wall LHS and RHS</rdfs:comment>
     </owl:NamedIndividual>
@@ -4274,7 +7164,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/oho-pro#3BED_GF_RARE_LSF_06">
-        <rdf:type rdf:resource="https://w3id.org/oho-pro#Wall_Panel"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
         <hasCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasCount>
         <rdfs:comment>Ground Floor Rare Panel LHS and RHS</rdfs:comment>
     </owl:NamedIndividual>
@@ -4285,7 +7175,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/oho-pro#3BED_ROOF_GABLE_LSF_05">
-        <rdf:type rdf:resource="https://w3id.org/oho-pro#Wall_Panel"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
         <hasCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasCount>
         <rdfs:comment>Roof Gable End Panels.</rdfs:comment>
     </owl:NamedIndividual>
@@ -4296,7 +7186,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/oho-pro#3BED_ROOF_GABLE_PARTY_WALL_LSF_10">
-        <rdf:type rdf:resource="https://w3id.org/oho-pro#Wall_Panel"/>
+        <rdf:type rdf:resource="https://w3id.org/oho#WallPanel"/>
         <hasCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasCount>
         <rdfs:comment>Roof Gable Party Wall Panels LHS and RHS</rdfs:comment>
     </owl:NamedIndividual>
@@ -4310,6 +7200,24 @@
         <rdf:type rdf:resource="https://w3id.org/oho-pro#ME_Specialist"/>
         <hasLabourHourlyRate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</hasLabourHourlyRate>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://w3id.org/oho#ElectricityCable">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/oho#LightingCable">
+        <rdfs:isDefinedBy>Quantity conversation factor datasheet</rdfs:isDefinedBy>
+    </rdf:Description>
     
 
 
@@ -4350,6 +7258,12 @@
      -->
 
 
+    <rdf:Description rdf:about="https://w3id.org/oho#p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/oho#Component">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/oho-pro#a">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
@@ -4365,12 +7279,6 @@
     <rdf:Description rdf:about="https://w3id.org/oho-pro#d">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/oho-pro#b">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/oho-pro#c">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/oho-pro#fa">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
@@ -4384,6 +7292,9 @@
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/oho-pro#q">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/oho-pro#c">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/oho-pro#oo">
@@ -4509,6 +7420,9 @@
     <rdf:Description rdf:about="https://w3id.org/oho-pro#v">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/oho-pro#b">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/oho-pro#d2">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
@@ -4523,8 +7437,8 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Get cost of Product</rdfs:comment>
-        <rdfs:label>Q1</rdfs:label>
+        <rdfs:comment>Calculate CycleTime of a Value Adding Activity</rdfs:comment>
+        <rdfs:label>S17</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -4532,8 +7446,8 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Product"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#b"/>
+                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Value_Adding"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -4541,10 +7455,10 @@
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#consume"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#b"/>
-                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#a"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasProcessTime"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
+                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#t"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -4569,156 +7483,10 @@
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
-                        <swrl:arguments rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/oho-pro#b"/>
-                            <rdf:Description rdf:about="https://w3id.org/oho-pro#a"/>
-                        </swrl:arguments>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Get cost of Product</rdfs:comment>
-        <rdfs:label>Q2</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Product"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#b"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#consume"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#b"/>
-                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#a"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#consume"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#SemiAutomatedFrameAssemblyLine"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Activity"/>
-                                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
-                        <swrl:arguments rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/oho-pro#b"/>
-                            <rdf:Description rdf:about="https://w3id.org/oho-pro#a"/>
-                        </swrl:arguments>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Calculate Cost of a Product</rdfs:comment>
-        <rdfs:label>S37</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Product"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#b"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#consume"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#b"/>
-                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#a"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasActivityCost"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#c"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Activity"/>
-                                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasActivityCost"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#b"/>
-                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#c"/>
+                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasCycleTime"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
+                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#t"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -6125,8 +8893,8 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Sequential_Process"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#sp"/>
+                                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Station"/>
+                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#w"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest>
@@ -6134,10 +8902,9 @@
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                         <rdf:first>
                                             <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#consistOf"/>
-                                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#w"/>
-                                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#a"/>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Sequential_Process"/>
+                                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#sp"/>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest>
@@ -6145,9 +8912,10 @@
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                 <rdf:first>
                                                     <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#WorkStation"/>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#consistOf"/>
                                                         <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#w"/>
+                                                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#a"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -6198,8 +8966,8 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Sequential_Process"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#sp"/>
+                                <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Station"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#w"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -6207,10 +8975,9 @@
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                 <rdf:first>
                                     <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#consistOf"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#w"/>
-                                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#a"/>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Sequential_Process"/>
+                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#sp"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest>
@@ -6218,10 +8985,10 @@
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                         <rdf:first>
                                             <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasCycleTime"/>
-                                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#sp"/>
-                                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#dw"/>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#consistOf"/>
+                                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#w"/>
+                                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#a"/>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest>
@@ -6229,9 +8996,10 @@
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                 <rdf:first>
                                                     <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#WorkStation"/>
-                                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#w"/>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasCycleTime"/>
+                                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#sp"/>
+                                                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#dw"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -6572,64 +9340,6 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Calculate CycleTime of a Neccessary Non Value Adding Activity</rdfs:comment>
-        <rdfs:label>S18</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Neccessary_Non_Value_Adding"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasInspectionTime"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#t"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Activity"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasCycleTime"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Calculate Plant cost of an activity</rdfs:comment>
         <rdfs:label>S34</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
@@ -6723,6 +9433,53 @@
                         <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasPlantCost"/>
                         <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
                         <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#ac"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S2</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://w3id.org/oho#Product"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/oho#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho#hasComponentPart"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/oho#p"/>
+                                <swrl:argument2 rdf:resource="https://w3id.org/oho#Component"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+                        <swrl:arguments rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/oho#Component"/>
+                        </swrl:arguments>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -7092,64 +9849,6 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Calculate CycleTime of a Non Value Adding Activity with Loading Time Only</rdfs:comment>
-        <rdfs:label>S26</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Non_Value_Adding"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasLoadingTime"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#lt"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Activity"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasCycleTime"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#lt"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Calculate Activity Cost of Support Activity</rdfs:comment>
         <rdfs:label>S39</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
@@ -7200,6 +9899,64 @@
                         <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasActivityCost"/>
                         <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
                         <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Calculate CycleTime of a Neccessary Non Value Adding Activity</rdfs:comment>
+        <rdfs:label>S18</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Neccessary_Non_Value_Adding"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasInspectionTime"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
+                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#t"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Activity"/>
+                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasCycleTime"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
+                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#t"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -7652,6 +10409,64 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Calculate CycleTime of a Non Value Adding Activity with Loading Time Only</rdfs:comment>
+        <rdfs:label>S26</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Non_Value_Adding"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasLoadingTime"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
+                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#lt"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Activity"/>
+                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasCycleTime"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
+                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#lt"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Calculate CycleTime of a Non Value Adding Activity with Waiting Time Only</rdfs:comment>
         <rdfs:label>S25</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
@@ -7847,64 +10662,6 @@
                         <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasActivityCost"/>
                         <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
                         <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#d"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Calculate CycleTime of a Value Adding Activity</rdfs:comment>
-        <rdfs:label>S17</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Value_Adding"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasProcessTime"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                                <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#t"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="https://w3id.org/oho-pro#Activity"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://w3id.org/oho-pro#hasCycleTime"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/oho-pro#a"/>
-                        <swrl:argument2 rdf:resource="https://w3id.org/oho-pro#t"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
